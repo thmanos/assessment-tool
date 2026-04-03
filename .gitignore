@@ -1,0 +1,7 @@
+/.venv
+__pycache__
+pyvenv.cfg
+CODING_RULES.md
+
+/resources
+!/resources/.gitkeep

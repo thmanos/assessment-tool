@@ -1,0 +1,690 @@
+[
+    {
+        "original": "(cost_revenue_dats!E36-cost_revenue_no_dats!E36)",
+        "converted": "(0-0)",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.datss_costs.cost_of_datss_maintenance_+_annual_fees",
+        "cell": "E3",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E3-cost_revenue_no_dats!E3",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.cost_of_water",
+        "cell": "E5",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E4-cost_revenue_no_dats!E4",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.cost_of__fuel",
+        "cell": "E6",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E5-cost_revenue_no_dats!E5",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.cost_of_electricity",
+        "cell": "E7",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E6-cost_revenue_no_dats!E6",
+        "converted": "51.099999999999994-0.0",
+        "result": 51.099999999999994,
+        "desc": "sust_kpis_no_dats.economic.costs.cost_of_pesticide",
+        "cell": "E8",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E7-cost_revenue_no_dats!E7",
+        "converted": "303.0-292.5",
+        "result": 10.5,
+        "desc": "sust_kpis_no_dats.economic.costs.cost_of_fertiliser",
+        "cell": "E9",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E8-cost_revenue_no_dats!E8",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.cost_of_feed",
+        "cell": "E10",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E9-cost_revenue_no_dats!E9",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs._cost_of_drugs",
+        "cell": "E11",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E10-cost_revenue_no_dats!E10",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_irrigation",
+        "cell": "E12",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E11-cost_revenue_no_dats!E11",
+        "converted": "19.699777282850782-0.0",
+        "result": 19.699777282850782,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_pesticide",
+        "cell": "E13",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E12-cost_revenue_no_dats!E12",
+        "converted": "9.853897550111359-0.0",
+        "result": 9.853897550111359,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_fertilisation",
+        "cell": "E14",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E13-cost_revenue_no_dats!E13",
+        "converted": "9.853897550111359-0.0",
+        "result": 9.853897550111359,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_sowing.planting",
+        "cell": "E15",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E14-cost_revenue_no_dats!E14",
+        "converted": "4.922939866369711-0.0",
+        "result": 4.922939866369711,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_pruning",
+        "cell": "E16",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E15-cost_revenue_no_dats!E15",
+        "converted": "8.442761692650334-0.0",
+        "result": 8.442761692650334,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_field_visits",
+        "cell": "E17",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E16-cost_revenue_no_dats!E16",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_greenhouse_management",
+        "cell": "E18",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E17-cost_revenue_no_dats!E17",
+        "converted": "0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_tracking_the_quantity_of_grain_available_in_the_silo",
+        "cell": "E19",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E18-cost_revenue_no_dats!E18",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_assessing_grain_quality",
+        "cell": "E20",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E19-cost_revenue_no_dats!E19",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_controlling_purchase_and_sale_prices_and_quantities",
+        "cell": "E21",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E20-cost_revenue_no_dats!E20",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_organise_logistics",
+        "cell": "E22",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E21-cost_revenue_no_dats!E21",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_cleaning",
+        "cell": "E23",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E22-cost_revenue_no_dats!E22",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_stable_visits",
+        "cell": "E24",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E23-cost_revenue_no_dats!E23",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_heat_detection",
+        "cell": "E25",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E24-cost_revenue_no_dats!E24",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_calving_detection",
+        "cell": "E26",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E25-cost_revenue_no_dats!E25",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_pigsty_management",
+        "cell": "E27",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E26-cost_revenue_no_dats!E26",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_milking",
+        "cell": "E28",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E27-cost_revenue_no_dats!E27",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_milk_quality_assessment",
+        "cell": "E29",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E28-cost_revenue_no_dats!E28",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_feeding",
+        "cell": "E30",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E29-cost_revenue_no_dats!E29",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_beehives_visits",
+        "cell": "E31",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E30-cost_revenue_no_dats!E30",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_sampling_of_oysters",
+        "cell": "E32",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E31-cost_revenue_no_dats!E31",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_transporting_oysters_to_the_laboratory",
+        "cell": "E33",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E32-cost_revenue_no_dats!E32",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_harvesting",
+        "cell": "E34",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E33-cost_revenue_no_dats!E33",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_storage",
+        "cell": "E35",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E34-cost_revenue_no_dats!E34",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.costs.labour_for_administrative_activities_data_collection_etc",
+        "cell": "E36",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E41-cost_revenue_no_dats!E41",
+        "converted": "1217.425389755011-0.0",
+        "result": 1217.425389755011,
+        "desc": "sust_kpis_no_dats.economic.output.crop_revenue",
+        "cell": "E39",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E42-cost_revenue_no_dats!E42",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.output.milk_revenue",
+        "cell": "E40",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E43-cost_revenue_no_dats!E43",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.output.meat_revenue",
+        "cell": "E41",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E44-cost_revenue_no_dats!E44",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.output.oyster_revenue",
+        "cell": "E42",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E45-cost_revenue_no_dats!E45",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.output.honey_revenue",
+        "cell": "E43",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "cost_revenue_dats!E46-cost_revenue_no_dats!E46",
+        "converted": "0.0-0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.output.silos_revenue",
+        "cell": "E44",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E3-sust_kpis_no_dats!E3",
+        "converted": "6.34075723830735-5.576923076923077",
+        "result": 0.7638341613842732,
+        "desc": "sust_kpis_no_dats.economic.productivity_.land_productivity",
+        "cell": "E50",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E4-sust_kpis_no_dats!E4",
+        "converted": "0.6007596539354294-0.3338129496402878",
+        "result": 0.2669467042951416,
+        "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity_arable_and_horticulture",
+        "cell": "E51",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E5-sust_kpis_no_dats!E5",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity_dairy_livestock",
+        "cell": "E52",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E6-sust_kpis_no_dats!E6",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity__meat_livestock",
+        "cell": "E53",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E7-sust_kpis_no_dats!E7",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity__aquaculture",
+        "cell": "E54",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E8-sust_kpis_no_dats!E8",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity__apiculture",
+        "cell": "E55",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E10-sust_kpis_no_dats!E10",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.milk_productivity",
+        "cell": "E56",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E11-sust_kpis_no_dats!E11",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.meat_productivity",
+        "cell": "E57",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E12-sust_kpis_no_dats!E12",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.bees_productivity",
+        "cell": "E58",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E13-sust_kpis_no_dats!E13",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.productivity_.oyster_productivity",
+        "cell": "E59",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E17-sust_kpis_no_dats!E17",
+        "converted": "0.0-0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats..quality.rate_of_time_for_quality_analysis",
+        "cell": "E60",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E18-sust_kpis_no_dats!E18",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.quality.rate_of_on-time_fulfilled_orders",
+        "cell": "E61",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E19-sust_kpis_no_dats!E19",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.economic.quality.number_of_wrong_orders",
+        "cell": "E62",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E23-sust_kpis_no_dats!E23",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats..quality.intrinsic_product_quality",
+        "cell": "E63",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E24-sust_kpis_no_dats!E24",
+        "converted": "12.5-12.0",
+        "result": 0.5,
+        "desc": "sust_kpis_no_dats.economic.quality.protein_%_dry_matter",
+        "cell": "E64",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E25-sust_kpis_no_dats!E25",
+        "converted": "14.1-13.5",
+        "result": 0.5999999999999996,
+        "desc": "sust_kpis_no_dats.economic.quality.humidity",
+        "cell": "E65",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E26-sust_kpis_no_dats!E26",
+        "converted": "76.6-71.5",
+        "result": 5.099999999999994,
+        "desc": "sust_kpis_no_dats.economic.quality.test_weight",
+        "cell": "E66",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E30-sust_kpis_no_dats!E30",
+        "converted": "110.09999999999998-117.264",
+        "result": -7.164000000000016,
+        "desc": "sust_kpis_no_dats.environmental.inputs.nitrogen_applied",
+        "cell": "E67",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E32-sust_kpis_no_dats!E32",
+        "converted": "31.200000000000003-47.5",
+        "result": -16.299999999999997,
+        "desc": "sust_kpis_no_dats.environmental.inputs.phosphorus_applied",
+        "cell": "E69",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E34-sust_kpis_no_dats!E34",
+        "converted": "0.0-0.062",
+        "result": -0.062,
+        "desc": "sust_kpis_no_dats.environmental.inputs.potassium_applied",
+        "cell": "E71",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E36-sust_kpis_no_dats!E36",
+        "converted": "2.3000000000000003-5.38",
+        "result": -3.0799999999999996,
+        "desc": "sust_kpis_no_dats.environmental.inputs.pesticides_herbicides_and_fungicides_use",
+        "cell": "E73",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E37-sust_kpis_no_dats!E37",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.water_.water_consumption",
+        "cell": "E74",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E38-sust_kpis_no_dats!E38",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.water_.aquaculture_water_productivity",
+        "cell": "E75",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E39-sust_kpis_no_dats!E39",
+        "converted": "15816.666666666666-6987.951807228916",
+        "result": 8828.71485943775,
+        "desc": "sust_kpis_no_dats.environmental.water_.irrigation_water_productivity",
+        "cell": "E76",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E40-sust_kpis_no_dats!E40",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.energy.electricity_consumption",
+        "cell": "E77",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E41-sust_kpis_no_dats!E41",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.animal_.ease_of_movement",
+        "cell": "E78",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E42-sust_kpis_no_dats!E42",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_livestock",
+        "cell": "E79",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E43-sust_kpis_no_dats!E43",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_aquaculture",
+        "cell": "E80",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E44-sust_kpis_no_dats!E44",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_apiculture",
+        "cell": "E81",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E45-sust_kpis_no_dats!E45",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_at_birth",
+        "cell": "E82",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E46-sust_kpis_no_dats!E46",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.animal_.cows_with_high_scc",
+        "cell": "E83",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E47-sust_kpis_no_dats!E47",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_dairy_livestock",
+        "cell": "E84",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E48-sust_kpis_no_dats!E48",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_meat_livestock",
+        "cell": "E85",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E49-sust_kpis_no_dats!E49",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_aquaculture",
+        "cell": "E86",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E50-sust_kpis_no_dats!E50",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_apiculture",
+        "cell": "E87",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E51-sust_kpis_no_dats!E51",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.ghg_emissions.fuel_ghg_emission",
+        "cell": "E88",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E52-sust_kpis_no_dats!E52",
+        "converted": "49.55456570155902-53.60576923076923",
+        "result": -4.051203529210213,
+        "desc": "sust_kpis_no_dats.environmental.energy.arable_and_horticulture_fuel_consumption",
+        "cell": "E89",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E53-sust_kpis_no_dats!E53",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.energy.livestock_fuel_consumption",
+        "cell": "E90",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E54-sust_kpis_no_dats!E54",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.energy.aquaculture_fuel_consumption",
+        "cell": "E91",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E55-sust_kpis_no_dats!E55",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.environmental.energy.apiculture_fuel_consumption",
+        "cell": "E92",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E59-sust_kpis_no_dats!E59",
+        "converted": "597.0758120271611-635.9264125481654",
+        "result": -38.85060052100437,
+        "desc": "sust_kpis_no_dats.environmental.ghg_emissions.n2o_ghg_emission",
+        "cell": "E93",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E60-sust_kpis_no_dats!E60",
+        "converted": "597.0758120271611-635.9264125481654",
+        "result": -38.85060052100437,
+        "desc": "sust_kpis_no_dats.environmental.ghg_emissions.ghg_emissions",
+        "cell": "E94",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E63",
+        "converted": "0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.labour.training_hours_for_the_use_of_dats",
+        "cell": "E95",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E64-sust_kpis_no_dats!E64",
+        "converted": "0-0",
+        "result": 0,
+        "desc": "sust_kpis_no_dats.social.labour.working_time",
+        "cell": "E96",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E65-sust_kpis_no_dats!E65",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.social.labour.frequency_rate_of_occupational_injuries",
+        "cell": "E97",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E66-sust_kpis_no_dats!E66",
+        "converted": "0.0-0.0",
+        "result": 0.0,
+        "desc": "sust_kpis_no_dats.social.labour.incidence_of_occupational_injuries",
+        "cell": "E98",
+        "sheet": "analysis_dats_vs._no_dats"
+    },
+    {
+        "original": "sust_kpis_dats!E67-sust_kpis_no_dats!E67",
+        "converted": "0.6666666666666666-0",
+        "result": 0.6666666666666666,
+        "desc": "sust_kpis_no_dats.social.labour.contribution_to_local_employment",
+        "cell": "E99",
+        "sheet": "analysis_dats_vs._no_dats"
+    }
+]

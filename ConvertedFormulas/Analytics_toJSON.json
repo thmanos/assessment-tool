@@ -1,0 +1,669 @@
+{
+    "formulas": [
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.datss_costs.cost_of_datss_maintenance_+_annual_fees",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "(cost_revenue_dats!E36-cost_revenue_no_dats!E36)",
+            "cell": "E3"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.datss_costs.initial_investment_for_the_datss",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "(D20+H20+L20)/(IF(D6=\"crop\",'Parcel 1 with DATSs'!G10,IF(D6=\"milk\",'Parcel 1 with DATSs'!G251,IF(D6=\"meat\",'Parcel 1 with DATSs'!G252,IF(D6=\"animal\",'Parcel 1 with DATSs'!G253,IF(D6=\"oyster\",'Parcel 1 with DATSs'!G254,IF(D6=\"honey\",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256)))))))",
+            "cell": "E4"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.cost_of_water",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E3-cost_revenue_no_dats!E3",
+            "cell": "E5"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.cost_of__fuel",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E4-cost_revenue_no_dats!E4",
+            "cell": "E6"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.cost_of_electricity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E5-cost_revenue_no_dats!E5",
+            "cell": "E7"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.cost_of_pesticide",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E6-cost_revenue_no_dats!E6",
+            "cell": "E8"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.cost_of_fertiliser",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E7-cost_revenue_no_dats!E7",
+            "cell": "E9"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.cost_of_feed",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E8-cost_revenue_no_dats!E8",
+            "cell": "E10"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs._cost_of_drugs",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E9-cost_revenue_no_dats!E9",
+            "cell": "E11"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_irrigation",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E10-cost_revenue_no_dats!E10",
+            "cell": "E12"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_pesticide",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E11-cost_revenue_no_dats!E11",
+            "cell": "E13"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_fertilisation",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E12-cost_revenue_no_dats!E12",
+            "cell": "E14"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_sowing.planting",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E13-cost_revenue_no_dats!E13",
+            "cell": "E15"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_pruning",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E14-cost_revenue_no_dats!E14",
+            "cell": "E16"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_field_visits",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E15-cost_revenue_no_dats!E15",
+            "cell": "E17"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_greenhouse_management",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E16-cost_revenue_no_dats!E16",
+            "cell": "E18"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_tracking_the_quantity_of_grain_available_in_the_silo",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E17-cost_revenue_no_dats!E17",
+            "cell": "E19"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_assessing_grain_quality",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E18-cost_revenue_no_dats!E18",
+            "cell": "E20"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_controlling_purchase_and_sale_prices_and_quantities",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E19-cost_revenue_no_dats!E19",
+            "cell": "E21"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_organise_logistics",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E20-cost_revenue_no_dats!E20",
+            "cell": "E22"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_cleaning",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E21-cost_revenue_no_dats!E21",
+            "cell": "E23"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_stable_visits",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E22-cost_revenue_no_dats!E22",
+            "cell": "E24"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_heat_detection",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E23-cost_revenue_no_dats!E23",
+            "cell": "E25"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_calving_detection",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E24-cost_revenue_no_dats!E24",
+            "cell": "E26"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_pigsty_management",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E25-cost_revenue_no_dats!E25",
+            "cell": "E27"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_milking",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E26-cost_revenue_no_dats!E26",
+            "cell": "E28"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_milk_quality_assessment",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E27-cost_revenue_no_dats!E27",
+            "cell": "E29"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_feeding",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E28-cost_revenue_no_dats!E28",
+            "cell": "E30"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_beehives_visits",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E29-cost_revenue_no_dats!E29",
+            "cell": "E31"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_sampling_of_oysters",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E30-cost_revenue_no_dats!E30",
+            "cell": "E32"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_transporting_oysters_to_the_laboratory",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E31-cost_revenue_no_dats!E31",
+            "cell": "E33"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_harvesting",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E32-cost_revenue_no_dats!E32",
+            "cell": "E34"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_storage",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E33-cost_revenue_no_dats!E33",
+            "cell": "E35"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.labour_for_administrative_activities_data_collection_etc",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E34-cost_revenue_no_dats!E34",
+            "cell": "E36"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.sum_of_costs_of_labour",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "SUMIF(J12:J36,1,E12:E36)",
+            "cell": "E37"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.costs.sum_of_costs",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "SUMIF(J5:J36,1,E5:E36)",
+            "cell": "E38"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.output.crop_revenue",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E41-cost_revenue_no_dats!E41",
+            "cell": "E39"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.output.milk_revenue",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E42-cost_revenue_no_dats!E42",
+            "cell": "E40"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.output.meat_revenue",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E43-cost_revenue_no_dats!E43",
+            "cell": "E41"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.output.oyster_revenue",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E44-cost_revenue_no_dats!E44",
+            "cell": "E42"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.output.honey_revenue",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E45-cost_revenue_no_dats!E45",
+            "cell": "E43"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.output.silos_revenue",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "cost_revenue_dats!E46-cost_revenue_no_dats!E46",
+            "cell": "E44"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.cba.benefit",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "IF(J39=1,E39-E38,-E38)",
+            "cell": "E45"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.cba.net_benefit",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "E45-E3",
+            "cell": "E46"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.cba.payback_period",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "E4/E46",
+            "cell": "E47"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.land_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E3-sust_kpis_no_dats!E3",
+            "cell": "E50"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity_arable_and_horticulture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E4-sust_kpis_no_dats!E4",
+            "cell": "E51"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity_dairy_livestock",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E5-sust_kpis_no_dats!E5",
+            "cell": "E52"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity__meat_livestock",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E6-sust_kpis_no_dats!E6",
+            "cell": "E53"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity__aquaculture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E7-sust_kpis_no_dats!E7",
+            "cell": "E54"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.labour_productivity__apiculture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E8-sust_kpis_no_dats!E8",
+            "cell": "E55"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.milk_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E10-sust_kpis_no_dats!E10",
+            "cell": "E56"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.meat_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E11-sust_kpis_no_dats!E11",
+            "cell": "E57"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.bees_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E12-sust_kpis_no_dats!E12",
+            "cell": "E58"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.productivity_.oyster_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E13-sust_kpis_no_dats!E13",
+            "cell": "E59"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats..quality.rate_of_time_for_quality_analysis",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E17-sust_kpis_no_dats!E17",
+            "cell": "E60"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.quality.rate_of_on-time_fulfilled_orders",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E18-sust_kpis_no_dats!E18",
+            "cell": "E61"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.quality.number_of_wrong_orders",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E19-sust_kpis_no_dats!E19",
+            "cell": "E62"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats..quality.intrinsic_product_quality",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E23-sust_kpis_no_dats!E23",
+            "cell": "E63"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.quality.protein_%_dry_matter",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E24-sust_kpis_no_dats!E24",
+            "cell": "E64"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.quality.humidity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E25-sust_kpis_no_dats!E25",
+            "cell": "E65"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.economic.quality.test_weight",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E26-sust_kpis_no_dats!E26",
+            "cell": "E66"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.nitrogen_applied",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E30-sust_kpis_no_dats!E30",
+            "cell": "E67"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.nitrogen_use_efficiency",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "ABS(sust_kpis_no_dats!E31-100)-ABS(sust_kpis_dats!E31-100)",
+            "cell": "E68"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.phosphorus_applied",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E32-sust_kpis_no_dats!E32",
+            "cell": "E69"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.phosphorus_use_efficiency",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "ABS(sust_kpis_no_dats!E33-100)-ABS(sust_kpis_dats!E33-100)",
+            "cell": "E70"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.potassium_applied",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E34-sust_kpis_no_dats!E34",
+            "cell": "E71"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.potassium_use_efficiency",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "ABS(sust_kpis_no_dats!E35-100)-ABS(sust_kpis_dats!E35-100)",
+            "cell": "E72"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.pesticides_herbicides_and_fungicides_use",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E36-sust_kpis_no_dats!E36",
+            "cell": "E73"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.water_.water_consumption",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E37-sust_kpis_no_dats!E37",
+            "cell": "E74"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.water_.aquaculture_water_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E38-sust_kpis_no_dats!E38",
+            "cell": "E75"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.water_.irrigation_water_productivity",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E39-sust_kpis_no_dats!E39",
+            "cell": "E76"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.energy.electricity_consumption",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E40-sust_kpis_no_dats!E40",
+            "cell": "E77"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.animal_.ease_of_movement",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E41-sust_kpis_no_dats!E41",
+            "cell": "E78"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_livestock",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E42-sust_kpis_no_dats!E42",
+            "cell": "E79"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_aquaculture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E43-sust_kpis_no_dats!E43",
+            "cell": "E80"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_apiculture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E44-sust_kpis_no_dats!E44",
+            "cell": "E81"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.animal_.mortality_rate_at_birth",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E45-sust_kpis_no_dats!E45",
+            "cell": "E82"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.animal_.cows_with_high_scc",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E46-sust_kpis_no_dats!E46",
+            "cell": "E83"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_dairy_livestock",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E47-sust_kpis_no_dats!E47",
+            "cell": "E84"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_meat_livestock",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E48-sust_kpis_no_dats!E48",
+            "cell": "E85"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_aquaculture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E49-sust_kpis_no_dats!E49",
+            "cell": "E86"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.inputs.drugs_use_in_apiculture",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E50-sust_kpis_no_dats!E50",
+            "cell": "E87"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.ghg_emissions.fuel_ghg_emission",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E51-sust_kpis_no_dats!E51",
+            "cell": "E88"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.energy.arable_and_horticulture_fuel_consumption",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E52-sust_kpis_no_dats!E52",
+            "cell": "E89"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.energy.livestock_fuel_consumption",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E53-sust_kpis_no_dats!E53",
+            "cell": "E90"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.energy.aquaculture_fuel_consumption",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E54-sust_kpis_no_dats!E54",
+            "cell": "E91"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.energy.apiculture_fuel_consumption",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E55-sust_kpis_no_dats!E55",
+            "cell": "E92"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.ghg_emissions.n2o_ghg_emission",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E59-sust_kpis_no_dats!E59",
+            "cell": "E93"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.environmental.ghg_emissions.ghg_emissions",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E60-sust_kpis_no_dats!E60",
+            "cell": "E94"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.labour.training_hours_for_the_use_of_dats",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E63",
+            "cell": "E95"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.labour.working_time",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E64-sust_kpis_no_dats!E64",
+            "cell": "E96"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.labour.frequency_rate_of_occupational_injuries",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E65-sust_kpis_no_dats!E65",
+            "cell": "E97"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.labour.incidence_of_occupational_injuries",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E66-sust_kpis_no_dats!E66",
+            "cell": "E98"
+        },
+        {
+            "parent": "",
+            "desc": "sust_kpis_no_dats.social.labour.contribution_to_local_employment",
+            "sheet": "Analysis DATS vs. NO DATS",
+            "formula": "sust_kpis_dats!E67-sust_kpis_no_dats!E67",
+            "cell": "E99"
+        }
+    ]
+}

@@ -1,0 +1,297 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h4 class="mb-0">
+                    <i class="bi bi-grid-3x3-gap me-2"></i>Assessment Tool Dashboard
+                </h4>
+            </div>
+            <div class="card-body">
+
+                {% if calculation_running %}
+                <div class="alert alert-warning d-flex align-items-center" role="alert">
+                    <i class="bi bi-hourglass-split flex-shrink-0 me-2"></i>
+                    <div>
+                        <strong>Calculation in progress</strong><br>
+                        Please wait for current calculation to complete before starting a new one.
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header bg-secondary text-white">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-folder-open me-2"></i>Select Test Case File
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="fileSelect" class="form-label">Available Files</label>
+                                    <select class="form-select" id="fileSelect" name="file" required>
+                                        <option value="">-- Select a file --</option>
+                                        {% for file in files %}
+                                        <option value="{{ file.name }}">
+                                            {{ file.name }} <small class="text-muted">({{ (file.size / 1024) | round(1) }} KB)</small>
+                                        </option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="cultivationYearSelect" class="form-label">Cultivation Year</label>
+                                    <select class="form-select" id="cultivationYearSelect" name="cultivationYear" required disabled>
+                                        <option value="">-- Select a year --</option>
+                                    </select>
+                                    <div class="form-text" id="cultivationYearHelp">
+                                        Select a file to load available cultivation years.
+                                    </div>
+                                </div>
+
+                                <div class="d-flex gap-2">
+                                    <button type="button" class="btn btn-outline-secondary flex-grow-1" onclick="refreshFiles()">
+                                        <i class="bi bi-arrow-clockwise me-1"></i>Refresh Files
+                                    </button>
+                                    <button type="button" class="btn btn-success flex-grow-1"
+                                            onclick="calculateSelectedFile()"
+                                            {% if calculation_running %}disabled{% endif %}>
+                                        <i class="bi bi-calculator me-1"></i>Calculate Results
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <div class="card-header bg-info text-white">
+                                <h5 class="mb-0">
+                                    <i class="bi bi-cloud-upload me-2"></i>Upload New File
+                                </h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="formFile" class="form-label">JSON Test Case File</label>
+                                    <input class="form-control" type="file" id="formFile" accept=".json" required>
+                                    <div class="form-text">
+                                        Upload JSON files with testcaseNumber, cultivationType, datsInformation, and yearlyAssessmentInformation fields.
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-primary w-100" onclick="uploadFile()"
+                                        {% if calculation_running %}disabled{% endif %}>
+                                    <i class="bi bi-upload me-1"></i>Upload File
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="errorAlert" class="alert alert-danger mt-3" role="alert" style="display: none;"></div>
+
+<div id="loadingOverlay" class="loading-overlay" style="display: none;">
+    <div class="spinner-border text-primary" role="status"></div>
+    <h4 class="mt-3 text-primary">Processing Calculation...</h4>
+    <p class="text-muted">Please wait, this may take a moment</p>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function refreshFiles() {
+    fetch('/files')
+        .then(response => response.json())
+        .then(data => {
+            const select = document.getElementById('fileSelect');
+            select.innerHTML = '<option value="">-- Select a file --</option>';
+            data.files.forEach(file => {
+                const sizeKB = (file.size / 1024).toFixed(1);
+                const option = document.createElement('option');
+                option.value = file.name;
+                option.textContent = `${file.name} (${sizeKB} KB)`;
+                select.appendChild(option);
+            });
+            resetCultivationYears();
+        })
+        .catch(error => {
+            alert('Error refreshing files: ' + error);
+        });
+}
+
+function resetCultivationYears() {
+    const yearSelect = document.getElementById('cultivationYearSelect');
+    const helpText = document.getElementById('cultivationYearHelp');
+    yearSelect.innerHTML = '<option value="">-- Select a year --</option>';
+    yearSelect.disabled = true;
+    helpText.textContent = 'Select a file to load available cultivation years.';
+}
+
+function loadCultivationYears(filename) {
+    const yearSelect = document.getElementById('cultivationYearSelect');
+    const helpText = document.getElementById('cultivationYearHelp');
+
+    if (!filename) {
+        resetCultivationYears();
+        return;
+    }
+
+    yearSelect.disabled = true;
+    yearSelect.innerHTML = '<option value="">Loading...</option>';
+    helpText.textContent = 'Loading cultivation years...';
+
+    fetch(`/cultivation-years/${filename}`)
+        .then(response => response.json())
+        .then(data => {
+            yearSelect.innerHTML = '<option value="">-- Select a year --</option>';
+            if (data.success && Array.isArray(data.years) && data.years.length > 0) {
+                data.years.forEach(year => {
+                    const option = document.createElement('option');
+                    option.value = year;
+                    option.textContent = year;
+                    yearSelect.appendChild(option);
+                });
+                yearSelect.disabled = false;
+                helpText.textContent = 'Choose the cultivation year to run.';
+            } else {
+                yearSelect.disabled = true;
+                helpText.textContent = 'No cultivation years found in this file.';
+            }
+        })
+        .catch(error => {
+            yearSelect.innerHTML = '<option value="">-- Select a year --</option>';
+            yearSelect.disabled = true;
+            helpText.textContent = 'Error loading cultivation years.';
+            alert('Error loading cultivation years: ' + error);
+        });
+}
+
+function uploadFile() {
+    const fileInput = document.getElementById('formFile');
+    const file = fileInput.files[0];
+
+    if (!file) {
+        alert('Please select a file to upload');
+        return;
+    }
+
+    const formData = new FormData();
+    formData.append('file', file);
+
+    showLoading();
+
+    fetch('/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        hideLoading();
+        if (data.success) {
+            alert(data.message);
+            refreshFiles();
+            fileInput.value = '';
+        } else {
+            alert('Error uploading file: ' + data.error);
+        }
+    })
+    .catch(error => {
+        hideLoading();
+        alert('Error uploading file: ' + error);
+    });
+}
+
+function calculateSelectedFile() {
+    const select = document.getElementById('fileSelect');
+    const filename = select.value;
+    const yearSelect = document.getElementById('cultivationYearSelect');
+    const cultivationYear = yearSelect.value;
+
+    if (!filename) {
+        alert('Please select a file first');
+        return;
+    }
+
+    if (!cultivationYear) {
+        alert('Please select a cultivation year');
+        return;
+    }
+
+    showLoading();
+
+    fetch(`/calculate/${filename}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ cultivationYear: cultivationYear })
+    })
+    .then(response => response.json())
+    .then(data => {
+        hideLoading();
+        if (data.success) {
+            window.location.href = data.redirect;
+        } else {
+            if (data.already_running) {
+                showErrorMessage(data.error);
+                setTimeout(() => location.reload(), 2000);
+            } else {
+                showErrorMessage(data.error, data.error_details);
+            }
+        }
+    })
+    .catch(error => {
+        hideLoading();
+        showErrorMessage('Error running calculation: ' + error);
+    });
+}
+
+function showLoading() {
+    document.getElementById('loadingOverlay').style.display = 'flex';
+}
+
+function hideLoading() {
+    document.getElementById('loadingOverlay').style.display = 'none';
+}
+
+function showErrorMessage(message, details) {
+    const alertEl = document.getElementById('errorAlert');
+    let html = '';
+
+    if (message) {
+        html += `<div><strong>${message}</strong></div>`;
+    }
+
+    if (Array.isArray(details) && details.length > 0) {
+        html += '<ul class="mb-0 mt-2">';
+        details.forEach(item => {
+            const text = String(item);
+            html += `<li>${text}</li>`;
+        });
+        html += '</ul>';
+    }
+
+    if (!html) {
+        html = '<div><strong>Unknown error occurred</strong></div>';
+    }
+
+    alertEl.innerHTML = html;
+    alertEl.style.display = 'block';
+    alertEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    refreshFiles();
+    const fileSelect = document.getElementById('fileSelect');
+    fileSelect.addEventListener('change', () => {
+        loadCultivationYears(fileSelect.value);
+    });
+});
+</script>
+{% endblock %}

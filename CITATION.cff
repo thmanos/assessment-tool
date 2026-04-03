@@ -1,0 +1,24 @@
+cff-version: 1.0.0
+title: "QuantiFarm — Assessment Tool"
+version: 1.0.0
+date-released: 2024-01-01
+abstract: >
+    The DATS Assessment Engine builds on the Quantifarm DATS assessment framework and aims to enable both quantitative and qualitative assessment of DATSs under real-world conditions.
+    The tool is conceived as a reusable, stand-alone software application that takes as input a set of ground-truth data (e.g. use of agricultural inputs, monetary costs, labour effort),
+    feeds these into assessment algorithms, and produces numeric values for a predefined set of performance indicators.
+    It can be downloaded and executed locally on a personal computer and provides a graphical user interface to facilitate data import and result visualization.
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+repository-code: "https://gitlab.com/QuantiFarm/assessment-tool"
+authors:
+  - family-names: Manos
+    given-names: Thanasis
+    affiliation: "Neuropublic S.A."
+keywords:
+  - agricultural investment
+  - digital agricultural technologies
+  - Horizon Europe
+  - DAT impact evaluation
+  - environmental metrics
+  - financial metrics

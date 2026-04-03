@@ -1,0 +1,1484 @@
+[
+    {
+        "original": "G250/G10",
+        "description": "sust_kpis_dats.productivity_.yield",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E3",
+        "conversion": "5694.0/898.0",
+        "result": "6.34075723830735"
+    },
+    {
+        "original": "G250/SUM(G194:G218)",
+        "description": "sust_kpis_dats.productivity_.labour_productivity_arable_and_horticulture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E4",
+        "conversion": "5694.0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)",
+        "result": "0.6007596539354294"
+    },
+    {
+        "original": "G251/SUM(G194:G218)",
+        "description": "sust_kpis_dats.productivity_.labour_productivity_dairy_livestock",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E5",
+        "conversion": "0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "G252/SUM(G194:G218)",
+        "description": "sust_kpis_dats.productivity_.labour_productivity__meat_livestock",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E6",
+        "conversion": "0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "G254/SUM(G194:G218)",
+        "description": "sust_kpis_dats.productivity_.labour_productivity__aquaculture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E7",
+        "conversion": "0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "G255/SUM(G194:G218)",
+        "description": "sust_kpis_dats.productivity_.labour_productivity__apiculture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E8",
+        "conversion": "0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "G256/SUM(G194:G218)",
+        "description": "sust_kpis_dats.productivity_.labour_productivity_silos",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E9",
+        "conversion": "0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "G251/G17/365",
+        "description": "sust_kpis_dats.productivity_.milk_productivity",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E10",
+        "conversion": "0/0/365",
+        "error": "division by zero"
+    },
+    {
+        "original": "G252/G17/365",
+        "description": "sust_kpis_dats.productivity_.meat_productivity",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E11",
+        "conversion": "0/0/365",
+        "error": "division by zero"
+    },
+    {
+        "original": "G255/G19",
+        "description": "sust_kpis_dats.productivity_.bees_productivity",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E12",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "G254/G20",
+        "description": "sust_kpis_dats.productivity_.oyster_productivity",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E13",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "(G202/SUM(G194:G218))*100",
+        "description": "sust_kpis_dats.efficiency_.rate_of_time_for_quality_analysis",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E17",
+        "conversion": "(0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0))*100",
+        "result": "0.0"
+    },
+    {
+        "original": "(G222/G223)*100",
+        "description": "sust_kpis_dats.efficiency_.rate_of_on-time_fulfilled_orders",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E18",
+        "conversion": "(0/0)*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "G224",
+        "description": "sust_kpis_dats.efficiency_.number_of_wrong_orders",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E19",
+        "conversion": "0",
+        "result": "0"
+    },
+    {
+        "original": "G226",
+        "description": "sust_kpis_dats.product_quality__.protein_%_dry_matter",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E24",
+        "conversion": "12.5",
+        "result": "12.5"
+    },
+    {
+        "original": "G227",
+        "description": "sust_kpis_dats.product_quality__.humidity",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E25",
+        "conversion": "14.1",
+        "result": "14.1"
+    },
+    {
+        "original": "G228",
+        "description": "sust_kpis_dats.product_quality__.test_weight",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E26",
+        "conversion": "76.6",
+        "result": "76.6"
+    },
+    {
+        "original": "(G101*1000*G102*(G103/100))+(G108*1000*G109*(G110/100))+(G115*1000*G116*(G117/100))+(G122*1000*G123*(G124/100))+(G129*1000*G130*(G131/100))+(G136*1000*G137*(G138/100))+(G143*1000*G144*(G145/100))+(G150*1000*G151*(G152/100))+(G157*1000*G158*(G159/100))+(G164*1000*G165*(G166/100))",
+        "description": "sust_kpis_dats.fertiliser.nitrogen_applied",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E30",
+        "conversion": "(1*1000*0.06*(11/100))+(1*1000*0.3*(34.5/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))",
+        "result": "110.09999999999998"
+    },
+    {
+        "original": "(((G250*1000/G10)*C100)/(E30)*100)",
+        "description": "sust_kpis_dats.fertiliser.nitrogen_use_efficiency",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E31",
+        "conversion": "(((5694.0*1000/898.0)*0.0202)/(110.09999999999998)*100)",
+        "result": "116.3336023740313"
+    },
+    {
+        "original": "(G101*1000*G102*(G104/100))+(G108*1000*G109*(G111/100))+(G115*1000*G116*(G118/100))+(G122*1000*G123*(G125/100))+(G129*1000*G130*(G132/100))+(G136*1000*G137*(G139/100))+(G143*1000*G144*(G146/100))+(G150*1000*G151*(G153/100))+(G157*1000*G158*(G160/100))+(G164*1000*G165*(G167/100))",
+        "description": "sust_kpis_dats.fertiliser.phosphorus_applied",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E32",
+        "conversion": "(1*1000*0.06*(52/100))+(1*1000*0.3*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))",
+        "result": "31.200000000000003"
+    },
+    {
+        "original": "(((G250*1000/G10)*C101)/E32*100)",
+        "description": "sust_kpis_dats.fertiliser.phosphorus_use_efficiency",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E33",
+        "conversion": "(((5694.0*1000/898.0)*0.0082)/31.200000000000003*100)",
+        "result": "166.6481069042316"
+    },
+    {
+        "original": "(G101*1000*G102*(G105/100))+(G108*1000*G109*(G112/100))+(G115*1000*G116*(G119/100))+(G122*1000*G123*(G126/100))+(G129*1000*G130*(G133/100))+(G136*1000*G137*(G140/100))+(G143*1000*G144*(G147/100))+(G150*1000*G151*(G154/100))+(G157*1000*G158*(G161/100))+(G164*1000*G165*(G168/100))",
+        "description": "sust_kpis_dats.fertiliser._potassium_applied",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E34",
+        "conversion": "(1*1000*0.06*(0/100))+(1*1000*0.3*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))",
+        "result": "0.0"
+    },
+    {
+        "original": "((((G250*1000)/G10)*C102)/E34*100)",
+        "description": "sust_kpis_dats.fertiliser.potassium_use_efficiency",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E35",
+        "conversion": "((((5694.0*1000)/898.0)*0.0052)/0.0*100)",
+        "error": "float division by zero"
+    },
+    {
+        "original": "(G67*G68)+(G70*G71)+(G73*G74)+(G76*G77)+(G79*G80)+(G82*G83)+(G85*G86)+(G88*G89)+(G91*G92)+(G94*G95)",
+        "description": "sust_kpis_dats.pesticide_.pesticides_herbicides_and_fungicides_use",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E36",
+        "conversion": "(1*0.8)+(1*0.15)+(1*0.75)+(1*0.6)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)",
+        "result": "2.3000000000000003"
+    },
+    {
+        "original": "G29/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "sust_kpis_dats.water_.water_consumption",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E37",
+        "conversion": "360.0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "((G250)*1000)/(IF((G24+G25)>0,(G24+G25),G29))",
+        "description": "sust_kpis_dats.water_.irrigation_water_productivity",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E39",
+        "conversion": "((5694.0)*1000)/(((360.0+0) if (360.0+0)>0 else 360.0))",
+        "result": "15816.666666666666"
+    },
+    {
+        "original": "G62/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "sust_kpis_dats.electricity.electricity_consumption",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E40",
+        "conversion": "2776.0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G235/G236",
+        "description": "sust_kpis_dats.animal_.ease_of_movement",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E41",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "G232/G17*100",
+        "description": "sust_kpis_dats.animal_.mortality_rate_livestock",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E42",
+        "conversion": "0/0*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "G232/G20",
+        "description": "sust_kpis_dats.animal_.mortality_rate_aquaculture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E43",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "G232/G19*100",
+        "description": "sust_kpis_dats.animal_.mortality_rate_apiculture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E44",
+        "conversion": "0/0*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "G233/G234",
+        "description": "sust_kpis_dats.animal_.mortality_rate_at_birth",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E45",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "G237/G17",
+        "description": "sust_kpis_dats.animal_.cows_with_high_scc",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E46",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_l( )/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "sust_kpis_dats.drugs_.drugs_use_in_dairy_livestock",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E47",
+        "conversion": "2.3000000000000003/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_l( )/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "sust_kpis_dats.drugs_.drugs_use_in_meat_livestock",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E48",
+        "conversion": "2.3000000000000003/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "(G187+G189+#REF!)/G20",
+        "description": "sust_kpis_dats.drugs_.drugs_use_in_aquaculture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E49",
+        "conversion": "(0+0+#0!)/0",
+        "error": "'(' was never closed (<string>, line 1)"
+    },
+    {
+        "original": "(G187+G189+#REF!)/G19",
+        "description": "sust_kpis_dats.drugs_.drugs_use_in_apiculture",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E50",
+        "conversion": "(0+0+#0!)/0",
+        "error": "'(' was never closed (<string>, line 1)"
+    },
+    {
+        "original": "(G43*35.9*0.0741)/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "sust_kpis_dats.fuel_.fuel_ghg_emission",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E51",
+        "conversion": "(44500.0*35.9*0.0741)/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G43/G10",
+        "description": "sust_kpis_dats.fuel_.arable_and_horticulture_fuel_consumption",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E52",
+        "conversion": "44500.0/898.0",
+        "result": "49.55456570155902"
+    },
+    {
+        "original": "G43/G17",
+        "description": "sust_kpis_dats.fuel_.livestock_fuel_consumption",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E53",
+        "conversion": "44500.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "G43/G20",
+        "description": "sust_kpis_dats.fuel_.aquaculture_fuel_consumption",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E54",
+        "conversion": "44500.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "G43/G19",
+        "description": "sust_kpis_dats.fuel_.apiculture_fuel_consumption",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E55",
+        "conversion": "44500.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "E30*0.24*0.011",
+        "description": "sust_kpis_dats.fertiliser.indirect_leaching/runoff",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E56",
+        "conversion": "110.09999999999998*0.24*0.011",
+        "result": "0.2906639999999999"
+    },
+    {
+        "original": "((((IF(G100=\"Mineral\",G101*G102*G103/100,0))+(IF(G107=\"Mineral\",G108*G109*G110/100,0))+(IF(G114=\"Mineral\",G115*G116*G117/100,0))+(IF(G121=\"Mineral\",G122*G123*G124/100,0))+(IF(G128=\"Mineral\",G129*G130*G131/100,0))+(IF(G135=\"Mineral\",G136*G137*G138/100,0))+(IF(G142=\"Mineral\",G143*G144*G145/100,0))+(IF(G149=\"Mineral\",G150*G151*G152/100,0))+(IF(G156=\"Mineral\",G157*G158*G159/100,0))+(IF(G163=\"Mineral\",G164*G165*G166/100,0)))*0.11) + (((IF(G100=\"Organic\",G101*G102*G103/100,0))+(IF(G107=\"Organic\",G108*G109*G110/100,0))+(IF(G114=\"Organic\",G115*G116*G117/100,0))+(IF(G121=\"Organic\",G122*G123*G124/100,0))+(IF(G128=\"Organic\",G129*G130*G131/100,0))+(IF(G135=\"Organic\",G136*G137*G138/100,0))+(IF(G142=\"Organic\",G143*G144*G145/100,0))+(IF(G149=\"Organic\",G150*G151*G152/100,0))+(IF(G156=\"Organic\",G157*G158*G159/100,0))+(IF(G163=\"Organic\",G164*G165*G166/100,0)))*0.21))*0.01",
+        "description": "sust_kpis_dats.fertiliser.indirect_volatilisation",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E57",
+        "conversion": "(((((1*0.06*11/100 if \"Mineral\"==\"Mineral\" else 0))+((1*0.3*34.5/100 if \"Mineral\"==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0))+((0*0*0/100 if 0==\"Mineral\" else 0)))*0.11) + ((((1*0.06*11/100 if \"Mineral\"==\"Organic\" else 0))+((1*0.3*34.5/100 if \"Mineral\"==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0))+((0*0*0/100 if 0==\"Organic\" else 0)))*0.21))*0.01",
+        "result": "0.00012110999999999998"
+    },
+    {
+        "original": "E30*0.01",
+        "description": "sust_kpis_dats.fertiliser.direct",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E58",
+        "conversion": "110.09999999999998*0.01",
+        "result": "1.1009999999999998"
+    },
+    {
+        "original": "(E58+E57+E56)*1.571428571*273",
+        "description": "sust_kpis_dats.fertiliser.n2o_ghg_emission",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E59",
+        "conversion": "(1.1009999999999998+0.00012110999999999998+0.2906639999999999)*1.571428571*273",
+        "result": "597.0758120271611"
+    },
+    {
+        "original": "E59+E51",
+        "description": "sust_kpis_dats.ghg.total_ghg_emissions",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E60",
+        "conversion": "597.0758120271611+0",
+        "result": "597.0758120271611"
+    },
+    {
+        "original": "D25/D14",
+        "description": "sust_kpis_dats.social_kpis.training_hours_for_the_use_of_dats",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E63",
+        "conversion": "40.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "(SUM(SUMIFS(G194:G218,C194:C218,'Analysis DATS vs. NO DATS'!C12:C36,'Analysis DATS vs. NO DATS'!J12:J36,1)))/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "sust_kpis_dats.social_kpis.working_time",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E64",
+        "result": "None",
+        "error": "(SUM(SUMIFS(G194:G218,C194:C218,'Analysis DATS vs. NO DATS'!C12:C36,'Analysis DATS vs. NO DATS'!J12:J36,1)))/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "conversion": ""
+    },
+    {
+        "original": "G241/G243",
+        "description": "sust_kpis_dats.social_kpis.frequency_rate_of_occupational_injuries",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E65",
+        "conversion": "0/7021.0",
+        "result": "0.0"
+    },
+    {
+        "original": "G242/G243",
+        "description": "sust_kpis_dats.social_kpis.incidence_of_occupational_injuries",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E66",
+        "conversion": "0/7021.0",
+        "result": "0.0"
+    },
+    {
+        "original": "G245/G246",
+        "description": "sust_kpis_dats.social_kpis.contribution_to_local_employment",
+        "sheet": "sust. impact KPIs DATS",
+        "cell": "E67",
+        "conversion": "4.0/6.0",
+        "result": "0.6666666666666666"
+    },
+    {
+        "original": "H250/H10",
+        "description": "sust_kpis_no_dats.productivity_.land_productivity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E3",
+        "conversion": "1160.0/208.0",
+        "result": "5.576923076923077"
+    },
+    {
+        "original": "H250/SUM(H194:H218)",
+        "description": "sust_kpis_no_dats.productivity_.labour_productivity_arable_and_horticulture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E4",
+        "conversion": "1160.0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)",
+        "result": "0.3338129496402878"
+    },
+    {
+        "original": "H251/SUM(H194:H218)",
+        "description": "sust_kpis_no_dats.productivity_.labour_productivity_dairy_livestock",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E5",
+        "conversion": "0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "H252/SUM(H194:H218)",
+        "description": "sust_kpis_no_dats.productivity_.labour_productivity__meat_livestock",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E6",
+        "conversion": "0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "H254/SUM(H194:H218)",
+        "description": "sust_kpis_no_dats.productivity_.labour_productivity__aquaculture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E7",
+        "conversion": "0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "H255/SUM(H194:H218)",
+        "description": "sust_kpis_no_dats.productivity_.labour_productivity__apiculture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E8",
+        "conversion": "0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "H256/SUM(H194:H218)",
+        "description": "sust_kpis_no_dats.productivity_.labour_productivity_silos",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E9",
+        "conversion": "0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)",
+        "result": "0.0"
+    },
+    {
+        "original": "H251/E17/365",
+        "description": "sust_kpis_no_dats.productivity_.milk_productivity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E10",
+        "conversion": "0/0/365",
+        "error": "division by zero"
+    },
+    {
+        "original": "H252/E17/365",
+        "description": "sust_kpis_no_dats.productivity_.meat_productivity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E11",
+        "conversion": "0/0/365",
+        "error": "division by zero"
+    },
+    {
+        "original": "H255/E19",
+        "description": "sust_kpis_no_dats.productivity_.bees_productivity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E12",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H254/E20",
+        "description": "sust_kpis_no_dats.productivity_.oyster_productivity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E13",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "(H202/SUM(H201:H204))*100",
+        "description": "sust_kpis_no_dats.efficiency_.rate_of_time_for_quality_analysis",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E17",
+        "conversion": "(0/(0+0+0+0))*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "(H222/H223)*100",
+        "description": "sust_kpis_no_dats.efficiency_.rate_of_on-time_fulfilled_orders",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E18",
+        "conversion": "(0/0)*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "H224",
+        "description": "sust_kpis_no_dats.efficiency_.number_of_wrong_orders",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E19",
+        "conversion": "0",
+        "result": "0"
+    },
+    {
+        "original": "H226",
+        "description": "sust_kpis_no_dats.product_quality__.protein_%_dry_matter",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E24",
+        "conversion": "12.0",
+        "result": "12.0"
+    },
+    {
+        "original": "H227",
+        "description": "sust_kpis_no_dats.product_quality__.humidity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E25",
+        "conversion": "13.5",
+        "result": "13.5"
+    },
+    {
+        "original": "H228",
+        "description": "sust_kpis_no_dats.product_quality__.test_weight",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E26",
+        "conversion": "71.5",
+        "result": "71.5"
+    },
+    {
+        "original": "(H101*1000*H102*(H103/100))+(H108*1000*H109*(H110/100))+(H115*1000*H116*(H117/100))+(H122*1000*H123*(H124/100))+(H129*1000*H130*(H131/100))+(H136*1000*H137*(H138/100))+(H143*1000*H144*(H145/100))+(H150*1000*H151*(H152/100))+(H157*1000*H158*(H159/100))+(H164*1000*H165*(H166/100))",
+        "description": "sust_kpis_no_dats.fertiliser.nitrogen_applied",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E30",
+        "conversion": "(1*1000*0.18*(21/100))+(1*1000*0.19*(15/100))+(1*1000*0.15*(33/100))+(1*1000*0.005*(27/100))+(1*1000*0.002*(5.7/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))",
+        "result": "117.264"
+    },
+    {
+        "original": "((H250*1000/H10)*C100)/E30*100",
+        "description": "sust_kpis_no_dats.fertiliser.nitrogen_use_efficiency",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E31",
+        "conversion": "((1160.0*1000/208.0)*0.0202)/117.264*100",
+        "result": "96.06856848977193"
+    },
+    {
+        "original": "(H101*1000*H102*(H104/100))+(H108*1000*H109*(H111/100))+(H115*1000*H116*(H118/100))+(H122*1000*H123*(H125/100))+(H129*1000*H130*(H132/100))+(H136*1000*H137*(H139/100))+(H143*1000*H144*(H146/100))+(H150*1000*H151*(H153/100))+(H157*1000*H158*(H160/100))+(H164*1000*H165*(H167/100))",
+        "description": "sust_kpis_no_dats.fertiliser.phosphorus_applied",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E32",
+        "conversion": "(1*1000*0.18*(0/100))+(1*1000*0.19*(25/100))+(1*1000*0.15*(0/100))+(1*1000*0.005*(0/100))+(1*1000*0.002*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))",
+        "result": "47.5"
+    },
+    {
+        "original": "((H250*1000/H10)*C101)/E32*100",
+        "description": "sust_kpis_no_dats.fertiliser.phosphorus_use_efficiency",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E33",
+        "conversion": "((1160.0*1000/208.0)*0.0082)/47.5*100",
+        "result": "96.2753036437247"
+    },
+    {
+        "original": "(H101*1000*H102*(H105/100))+(H108*1000*H109*(H112/100))+(H115*1000*H116*(H119/100))+(H122*1000*H123*(H126/100))+(H129*1000*H130*(H133/100))+(H136*1000*H137*(H140/100))+(H143*1000*H144*(H147/100))+(H150*1000*H151*(H154/100))+(H157*1000*H158*(H161/100))+(H164*1000*H165*(H168/100))",
+        "description": "sust_kpis_no_dats.fertiliser.potassium_applied",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E34",
+        "conversion": "(1*1000*0.18*(0/100))+(1*1000*0.19*(0/100))+(1*1000*0.15*(0/100))+(1*1000*0.005*(0/100))+(1*1000*0.002*(3.1/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))",
+        "result": "0.062"
+    },
+    {
+        "original": "((H250*1000/H10)*C102)/E34*100",
+        "description": "sust_kpis_no_dats.fertiliser.potassium_use_efficiency",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E35",
+        "conversion": "((1160.0*1000/208.0)*0.0052)/0.062*100",
+        "result": "46774.1935483871"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_s( )",
+        "description": "sust_kpis_no_dats.pesticide_.pesticides_herbicides_and_fungicides_use",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E36",
+        "conversion": "5.38",
+        "result": "5.38"
+    },
+    {
+        "original": "H29/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "sust_kpis_no_dats.water_.water_consumption",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E37",
+        "conversion": "166.0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "((H250)*1000)/(IF((H24+H25)>0,(H24+H25),H29))",
+        "description": "sust_kpis_no_dats.water_.irrigation_water_productivity",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E39",
+        "conversion": "((1160.0)*1000)/(((166.0+0) if (166.0+0)>0 else 166.0))",
+        "result": "6987.951807228916"
+    },
+    {
+        "original": "H62/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "sust_kpis_no_dats.electricity.electricity_consumption",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E40",
+        "conversion": "1077.0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H235/H236",
+        "description": "sust_kpis_no_dats.animal_.ease_of_movement",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E41",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H232/E17*100",
+        "description": "sust_kpis_no_dats.animal_.mortality_rate_livestock",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E42",
+        "conversion": "0/0*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "H232/E20",
+        "description": "sust_kpis_no_dats.animal_.mortality_rate_aquaculture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E43",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H232/E19*100",
+        "description": "sust_kpis_no_dats.animal_.mortality_rate_apiculture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E44",
+        "conversion": "0/0*100",
+        "error": "division by zero"
+    },
+    {
+        "original": "H233/H234",
+        "description": "sust_kpis_no_dats.animal_.mortality_rate_at_birth",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E45",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H237/E17",
+        "description": "sust_kpis_no_dats.animal_.cows_with_high_scc",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E46",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_u( )/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "sust_kpis_no_dats.drugs_.drugs_use_in_dairy_livestock",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E47",
+        "conversion": "0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_u( )/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "sust_kpis_no_dats.drugs_.drugs_use_in_meat_livestock",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E48",
+        "conversion": "0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_u( )/E20",
+        "description": "sust_kpis_no_dats.drugs_.drugs_use_in_aquaculture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E49",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_u( )/E19",
+        "description": "sust_kpis_no_dats.drugs_.drugs_use_in_apiculture",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E50",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "(H43*35.9*0.0741)/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "sust_kpis_no_dats.fuel_.fuel_ghg_emission",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E51",
+        "conversion": "(11150.0*35.9*0.0741)/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H43/H10",
+        "description": "sust_kpis_no_dats.fuel_.arable_and_horticulture_fuel_consumption",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E52",
+        "conversion": "11150.0/208.0",
+        "result": "53.60576923076923"
+    },
+    {
+        "original": "H43/E17",
+        "description": "sust_kpis_no_dats.fuel_.livestock_fuel_consumption",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E53",
+        "conversion": "11150.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "H43/E20",
+        "description": "sust_kpis_no_dats.fuel_.aquaculture_fuel_consumption",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E54",
+        "conversion": "11150.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "H43/E19",
+        "description": "sust_kpis_no_dats.fuel_.apiculture_fuel_consumption",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E55",
+        "conversion": "11150.0/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "E30*0.24*0.011",
+        "description": "sust_kpis_no_dats.fertiliser.indirect_leaching/runoff",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E56",
+        "conversion": "117.264*0.24*0.011",
+        "result": "0.30957695999999996"
+    },
+    {
+        "original": "((((IF(H100=\"Mineral\",H101*H102*H103/100,0)) +(IF(H107=\"Mineral\",H108*H109*H110/100,0)) +(IF(H114=\"Mineral\",H115*H116*H117/100,0)) +(IF(H121=\"Mineral\",H122*H123*H124/100,0)) +(IF(H128=\"Mineral\",H129*H130*H131/100,0)) +(IF(H135=\"Mineral\",H136*H137*H138/100,0)) +(IF(H142=\"Mineral\",H143*H144*H145/100,0)) +(IF(H149=\"Mineral\",H150*H151*H152/100,0)) +(IF(H156=\"Mineral\",H157*H158*H159/100,0)) +(IF(H163=\"Mineral\",H164*H165*H166/100,0)))*0.11) +(((IF(H100=\"Organic\",H101*H102*H103/100,0)) +(IF(H107=\"Organic\",H108*H109*H110/100,0)) +(IF(H114=\"Organic\",H115*H116*H117/100,0)) +(IF(H121=\"Organic\",H122*H123*H124/100,0)) +(IF(H128=\"Organic\",H129*H130*H131/100,0)) +(IF(H135=\"Organic\",H136*H137*H138/100,0)) +(IF(H142=\"Organic\",H143*H144*H145/100,0)) +(IF(H149=\"Organic\",H150*H151*H152/100,0)) +(IF(H156=\"Organic\",H157*H158*H159/100,0)) +(IF(H163=\"Organic\",H164*H165*H166/100,0)))*0.21))*0.01",
+        "description": "sust_kpis_no_dats.fertiliser.indirect_volatilisation",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E57",
+        "conversion": "(((((1*0.18*21/100 if \"Mineral\"==\"Mineral\" else 0)) +((1*0.19*15/100 if \"Mineral\"==\"Mineral\" else 0)) +((1*0.15*33/100 if \"Mineral\"==\"Mineral\" else 0)) +((1*0.005*27/100 if \"Mineral\"==\"Mineral\" else 0)) +((1*0.002*5.7/100 if \"Mineral\"==\"Mineral\" else 0)) +((0*0*0/100 if 0==\"Mineral\" else 0)) +((0*0*0/100 if 0==\"Mineral\" else 0)) +((0*0*0/100 if 0==\"Mineral\" else 0)) +((0*0*0/100 if 0==\"Mineral\" else 0)) +((0*0*0/100 if 0==\"Mineral\" else 0)))*0.11) +((((1*0.18*21/100 if \"Mineral\"==\"Organic\" else 0)) +((1*0.19*15/100 if \"Mineral\"==\"Organic\" else 0)) +((1*0.15*33/100 if \"Mineral\"==\"Organic\" else 0)) +((1*0.005*27/100 if \"Mineral\"==\"Organic\" else 0)) +((1*0.002*5.7/100 if \"Mineral\"==\"Organic\" else 0)) +((0*0*0/100 if 0==\"Organic\" else 0)) +((0*0*0/100 if 0==\"Organic\" else 0)) +((0*0*0/100 if 0==\"Organic\" else 0)) +((0*0*0/100 if 0==\"Organic\" else 0)) +((0*0*0/100 if 0==\"Organic\" else 0)))*0.21))*0.01",
+        "result": "0.0001289904"
+    },
+    {
+        "original": "E30*0.01",
+        "description": "sust_kpis_no_dats.fertiliser.direct",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E58",
+        "conversion": "117.264*0.01",
+        "result": "1.17264"
+    },
+    {
+        "original": "(E58+E57+E56)*1.571428571*273",
+        "description": "sust_kpis_no_dats.fertiliser.n2o_ghg_emission",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E59",
+        "conversion": "(1.17264+0.0001289904+0.30957695999999996)*1.571428571*273",
+        "result": "635.9264125481654"
+    },
+    {
+        "original": "E59+E51",
+        "description": "sust_kpis_no_dats.ghg.total_ghg_emissions",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E60",
+        "conversion": "635.9264125481654+0",
+        "result": "635.9264125481654"
+    },
+    {
+        "original": "(SUM(SUMIFS(H194:H218,C194:C218,'Analysis DATS vs. NO DATS'!C12:C36,'Analysis DATS vs. NO DATS'!J12:J36,1)))/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "sust_kpis_no_dats.social_kpis.working_time",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E64",
+        "result": "None",
+        "error": "(SUM(SUMIFS(H194:H218,C194:C218,'Analysis DATS vs. NO DATS'!C12:C36,'Analysis DATS vs. NO DATS'!J12:J36,1)))/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "conversion": ""
+    },
+    {
+        "original": "H241/H243",
+        "description": "sust_kpis_no_dats.social_kpis.frequency_rate_of_occupational_injuries",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E65",
+        "conversion": "0/2431.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H242/H243",
+        "description": "sust_kpis_no_dats.social_kpis.incidence_of_occupational_injuries",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E66",
+        "conversion": "0/2431.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H245/H246",
+        "description": "sust_kpis_no_dats.social_kpis.contribution_to_local_employment",
+        "sheet": "sust. impact KPIs NO DATS",
+        "cell": "E67",
+        "conversion": "0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "(G29*D32)/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.water_.cost_of_water",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E3",
+        "conversion": "(360.0*0.0)/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G43*D33/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.fuel_.cost_of__fuel",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E4",
+        "conversion": "44500.0*1.15/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G62*D38/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.electricity.cost_of_electricity",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E5",
+        "conversion": "2776.0*0.148/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_b( )",
+        "description": "cost_revenue_dats.cost_analysis.pesticide_.cost_for_pesticide",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E6",
+        "conversion": "51.099999999999994",
+        "result": "51.099999999999994"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_c( )",
+        "description": "cost_revenue_dats.cost_analysis.fertiliser.cost_of_fertiliser",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E7",
+        "conversion": "303.0",
+        "result": "303.0"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_d( )/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.feed.cost_of_feed",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E8",
+        "conversion": "0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_e( )/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.drugs_._cost_of_drugs",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E9",
+        "conversion": "0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G194*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_irrigation",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E10",
+        "conversion": "0.0*7.2/898.0",
+        "result": "0.0"
+    },
+    {
+        "original": "G195*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_pesticide_application",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E11",
+        "conversion": "2457.0*7.2/898.0",
+        "result": "19.699777282850782"
+    },
+    {
+        "original": "G196*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_fertilisation",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E12",
+        "conversion": "1229.0*7.2/898.0",
+        "result": "9.853897550111359"
+    },
+    {
+        "original": "G197*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_sowing.planting",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E13",
+        "conversion": "1229.0*7.2/898.0",
+        "result": "9.853897550111359"
+    },
+    {
+        "original": "G198*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_pruning",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E14",
+        "conversion": "614.0*7.2/898.0",
+        "result": "4.922939866369711"
+    },
+    {
+        "original": "G199*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_field_visits",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E15",
+        "conversion": "1053.0*7.2/898.0",
+        "result": "8.442761692650334"
+    },
+    {
+        "original": "G200*D39/G10",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_greenhouse_maintenance",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E16",
+        "conversion": "0*7.2/898.0",
+        "result": "0.0"
+    },
+    {
+        "original": "G201*D39/G256",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_tracking_the_quantity_of_grain_available_in_the_silo",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E17",
+        "conversion": "0*7.2/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "G202*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_assessing_product_quality",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E18",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G203*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_controlling_purchase_and_sale_prices_and_quantities",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E19",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G204*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_organise_logistics",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E20",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G205*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_cleaning",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E21",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G206*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_stable_visits",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E22",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G207*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_heat_detection",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E23",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G208*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_calving_detection",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E24",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G209*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_pigsty_management",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E25",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G210*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_milking",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E26",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G211*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_milk_quality_assessment",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E27",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G212*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_feeding",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E28",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G213*D39/G255",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_beehives_visits",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E29",
+        "conversion": "0*7.2/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "G214*D39/G254",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_sampling_of_oysters",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E30",
+        "conversion": "0*7.2/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "G215*D39/G254",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_transporting_oysters_to_the_laboratory",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E31",
+        "conversion": "0*7.2/0",
+        "error": "float division by zero"
+    },
+    {
+        "original": "G216*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_harvesting",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E32",
+        "conversion": "1843.0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G217*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_labour_for_storage",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E33",
+        "conversion": "0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G218*D39/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.labour.cost_of_administrative_activities_data_collection_etc",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E34",
+        "conversion": "1053.0*7.2/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "SUM(E3:E34)",
+        "description": "cost_revenue_dats.cost_analysis.cost.tot_cost",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E35",
+        "conversion": "(0+0+0+51.099999999999994+303.0+0+0+0.0+19.699777282850782+9.853897550111359+9.853897550111359+4.922939866369711+8.442761692650334+0.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)",
+        "result": "406.87327394209353"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_x( )/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.datss.cost_of_datss",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E36",
+        "conversion": "72696/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "D27/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253, IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256)))))))",
+        "description": "cost_revenue_dats.cost_analysis.datss.cost_of_training",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E37",
+        "conversion": "1200.0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G250/G10*D41",
+        "description": "cost_revenue_dats.revenues_analysis.output.crop_revenue",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E41",
+        "conversion": "5694.0/898.0*192.0",
+        "result": "1217.425389755011"
+    },
+    {
+        "original": "(G251*D41/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256))))))))*1000",
+        "description": "cost_revenue_dats.revenues_analysis.output.milk_revenue",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E42",
+        "conversion": "(0*192.0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0))))))))*1000",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "(G252*D41/(IF(D6=\"crop\",G10,IF(D6=\"milk\",G251,IF(D6=\"meat\",G252,IF(D6=\"animal\",G253,IF(D6=\"oyster\",G254,IF(D6=\"honey\",G255,G256))))))))/10",
+        "description": "cost_revenue_dats.revenues_analysis.output.meat_revenue",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E43",
+        "conversion": "(0*192.0/((898.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0))))))))/10",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "G254*I41/G20",
+        "description": "cost_revenue_dats.revenues_analysis.output.oyster_revenue",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E44",
+        "conversion": "0*0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "G255*I41/G19",
+        "description": "cost_revenue_dats.revenues_analysis.output.honey_revenue",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E45",
+        "conversion": "0*0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "G256*D41",
+        "description": "cost_revenue_dats.revenues_analysis.output.grain_silos_revenue",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E46",
+        "conversion": "0*192.0",
+        "result": "0.0"
+    },
+    {
+        "original": "G225",
+        "description": "cost_revenue_dats.revenues_analysis.additional_revenues.additional_revenues",
+        "sheet": "Cost-Revenue DATS",
+        "cell": "E47",
+        "conversion": "0",
+        "result": "0"
+    },
+    {
+        "original": "(H29*I32)/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.water_.cost_of_water",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E3",
+        "conversion": "(166.0*0)/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H43*D33/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.fuel_.cost_of__fuel",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E4",
+        "conversion": "11150.0*1.15/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H62*D38/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.electricity.cost_of_electricity",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E5",
+        "conversion": "1077.0*0.148/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "(H67*H68*I43)+(H70*H71*I44)+(H73*H74*I45)+(H76*H77*I46)+(H79*H80*I47)+(H82*H83*I48)+(H85*H86*I49)+(H88*H89*I50)+(H91*H92*I51)+(H94*H95*I52)",
+        "description": "cost_revenue_no_dats.cost_analysis.pesticide_.cost_for_pesticide",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E6",
+        "conversion": "(1*2*0)+(1*1*0)+(1*1*0)+(1*0.3*0)+(1*0.08*0)+(1*1*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)",
+        "result": "0.0"
+    },
+    {
+        "original": "cstfn_calculate_dynamic_h( ) ",
+        "description": "cost_revenue_no_dats.cost_analysis.fertiliser.cost_of_fertiliser",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E7",
+        "conversion": "292.5 ",
+        "result": "292.5"
+    },
+    {
+        "original": "(I65*H173+I66*H175+I69*H177)/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.feed.cost_of_feed",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E8",
+        "conversion": "(0*0+0*0+0*0)/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "(I71*H186+I72*H188+I73*H190)/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.drugs_._cost_of_drugs",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E9",
+        "conversion": "(0*0+0*0+0*0)/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H194*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_irrigation",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E10",
+        "conversion": "0.0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H195*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_pesticide",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E11",
+        "conversion": "656.0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H196*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_fertilisation",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E12",
+        "conversion": "388.0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H197*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_sowing.planting",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E13",
+        "conversion": "597.0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H198*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_pruning",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E14",
+        "conversion": "149.0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H199*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_field_visits",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E15",
+        "conversion": "395.0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H200*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_greenhouse_management",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E16",
+        "conversion": "0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H201*I39/H10",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_tracking_the_quantity_of_grain_available_in_the_silo",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E17",
+        "conversion": "0*0/208.0",
+        "result": "0.0"
+    },
+    {
+        "original": "H202*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_assessing_product_quality",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E18",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H203*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_controlling_purchase_and_sale_prices_and_quantities",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E19",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H204*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_organising_logistics",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E20",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H205*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_cleaning",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E21",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H206*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_stable_visits",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E22",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H207*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_heat_detection",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E23",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H208*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_calving_detection",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E24",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H209*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_pigsty_management",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E25",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H210*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_milking",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E26",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H211*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_milk_quality_assessment",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E27",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H212*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_feeding",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E28",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H213*I39/E19",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_beehives_visits",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E29",
+        "conversion": "0*0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H214*I39/H254",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_sampling_of_oysters",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E30",
+        "conversion": "0*0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H215*I39/H254",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_transporting_oysters_to_the_laboratory",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E31",
+        "conversion": "0*0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H216*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_harvesting",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E32",
+        "conversion": "895.0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H217*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_labour_for_storage",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E33",
+        "conversion": "0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H218*I39/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256)))))))",
+        "description": "cost_revenue_no_dats.cost_analysis.labour.cost_of_administrative_activities_data_collection_etc",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E34",
+        "conversion": "395.0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0)))))))",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "SUM(E3:E34)",
+        "description": "cost_revenue_no_dats.cost_analysis.cost.tot_cost",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E35",
+        "conversion": "(0+0+0+0.0+292.5+0+0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)",
+        "result": "292.5"
+    },
+    {
+        "original": "H250/H10*I41",
+        "description": "cost_revenue_no_dats.revenues_analysis.output.crop_revenue",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E41",
+        "conversion": "1160.0/208.0*0",
+        "result": "0.0"
+    },
+    {
+        "original": "(H251*I41/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256))))))))*1000",
+        "description": "cost_revenue_no_dats.revenues_analysis.output.milk_revenue",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E42",
+        "conversion": "(0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0))))))))*1000",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "(H252*I41/(IF(D6=\"crop\",H10,IF(D6=\"milk\",H251,IF(D6=\"meat\",H252,IF(D6=\"animal\",H253,IF(D6=\"oyster\",H254,IF(D6=\"honey\",H255,H256))))))))/10",
+        "description": "cost_revenue_no_dats.revenues_analysis.output.meat_revenue",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E43",
+        "conversion": "(0*0/((208.0 if \"\"Wheat\"\"==\"\"Wheat\"\" else (0 if \"\"Wheat\"\"==\"milk\" else (0 if \"\"Wheat\"\"==\"meat\" else (0 if \"\"Wheat\"\"==\"animal\" else (0 if \"\"Wheat\"\"==\"oyster\" else (0 if \"\"Wheat\"\"==\"honey\" else 0))))))))/10",
+        "error": "expected 'else' after 'if' expression (<string>, line 1)"
+    },
+    {
+        "original": "H254*I41/E20",
+        "description": "cost_revenue_no_dats.revenues_analysis.output.oyster_revenue",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E44",
+        "conversion": "0*0/0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H255/E19*I41",
+        "description": "cost_revenue_no_dats.revenues_analysis.output.honey_revenue",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E45",
+        "conversion": "0/0*0",
+        "error": "division by zero"
+    },
+    {
+        "original": "H256*I41",
+        "description": "cost_revenue_no_dats.revenues_analysis.output.grain_silos_revenue",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E46",
+        "conversion": "0*0",
+        "result": "0"
+    },
+    {
+        "original": "H225",
+        "description": "cost_revenue_no_dats.revenues_analysis.additional_revenues.additional_revenues",
+        "sheet": "Cost-revenue NO DATS",
+        "cell": "E47",
+        "conversion": "0",
+        "result": "0"
+    }
+]

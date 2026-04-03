@@ -1,0 +1,86 @@
+$E$3: ='Parcel 1 with DATSs'!G250/'Parcel 1 with DATSs'!E10 |  | 
+$E$4: ='Parcel 1 with DATSs'!G250/SUM('Parcel 1 with DATSs'!G194:G218) |  | 
+$E$5: ='Parcel 1 with DATSs'!G251/SUM('Parcel 1 with DATSs'!G194:G218) |  | 
+$E$6: ='Parcel 1 with DATSs'!G252/SUM('Parcel 1 with DATSs'!G194:G218) |  | 
+$E$7: ='Parcel 1 with DATSs'!G254/SUM('Parcel 1 with DATSs'!G194:G218) |  | 
+$E$8: ='Parcel 1 with DATSs'!G255/SUM('Parcel 1 with DATSs'!G194:G218) |  | 
+$E$9: ='Parcel 1 with DATSs'!G256/SUM('Parcel 1 with DATSs'!G194:G218) |  | 
+$E$10: ='Parcel 1 with DATSs'!G251/'Parcel 1 with DATSs'!E17/365 |  | 
+$E$11: ='Parcel 1 with DATSs'!G252/'Parcel 1 with DATSs'!E17/365 |  | 
+$E$12: ='Parcel 1 with DATSs'!G255/'Parcel 1 with DATSs'!E19 |  | 
+$E$13: ='Parcel 1 with DATSs'!G254/'Parcel 1 with DATSs'!E20 |  | 
+$E$17: =('Parcel 1 with DATSs'!G202/SUM('Parcel 1 with DATSs'!G194:G218))*100 |  | 
+$E$18: =('Parcel 1 with DATSs'!G222/'Parcel 1 with DATSs'!G223)*100 |  | 
+$E$19: ='Parcel 1 with DATSs'!G224 |  | 
+$E$24: ='Parcel 1 with DATSs'!G226 |  | 
+$E$25: ='Parcel 1 with DATSs'!G227 |  | 
+$E$26: ='Parcel 1 with DATSs'!G228 |  | 
+$E$30: =('Parcel 1 with DATSs'!G101*1000*'Parcel 1 with DATSs'!G102*('Parcel 1 with DATSs'!G103/100))+
+('Parcel 1 with DATSs'!G108*1000*'Parcel 1 with DATSs'!G109*('Parcel 1 with DATSs'!G110/100))+
+('Parcel 1 with DATSs'!G115*1000*'Parcel 1 with DATSs'!G116*('Parcel 1 with DATSs'!G117/100))+
+('Parcel 1 with DATSs'!G122*1000*'Parcel 1 with DATSs'!G123*('Parcel 1 with DATSs'!G124/100))+
+('Parcel 1 with DATSs'!G129*1000*'Parcel 1 with DATSs'!G130*('Parcel 1 with DATSs'!G131/100))+
+('Parcel 1 with DATSs'!G136*1000*'Parcel 1 with DATSs'!G137*('Parcel 1 with DATSs'!G138/100))+
+('Parcel 1 with DATSs'!G143*1000*'Parcel 1 with DATSs'!G144*('Parcel 1 with DATSs'!G145/100))+
+('Parcel 1 with DATSs'!G150*1000*'Parcel 1 with DATSs'!G151*('Parcel 1 with DATSs'!G152/100))+
+('Parcel 1 with DATSs'!G157*1000*'Parcel 1 with DATSs'!G158*('Parcel 1 with DATSs'!G159/100))+
+('Parcel 1 with DATSs'!G164*1000*'Parcel 1 with DATSs'!G165*('Parcel 1 with DATSs'!G166/100)) |  | 
+$E$31: =((('Parcel 1 with DATSs'!G250*1000/'Parcel 1 with DATSs'!E10)*C98)/(E30)*100) |  | 
+$E$32: =('Parcel 1 with DATSs'!G101*1000*'Parcel 1 with DATSs'!G102*('Parcel 1 with DATSs'!G104/100))+
+('Parcel 1 with DATSs'!G108*1000*'Parcel 1 with DATSs'!G109*('Parcel 1 with DATSs'!G111/100))+
+('Parcel 1 with DATSs'!G115*1000*'Parcel 1 with DATSs'!G116*('Parcel 1 with DATSs'!G118/100))+
+('Parcel 1 with DATSs'!G122*1000*'Parcel 1 with DATSs'!G123*('Parcel 1 with DATSs'!G125/100))+
+('Parcel 1 with DATSs'!G129*1000*'Parcel 1 with DATSs'!G130*('Parcel 1 with DATSs'!G132/100))+
+('Parcel 1 with DATSs'!G136*1000*'Parcel 1 with DATSs'!G137*('Parcel 1 with DATSs'!G139/100))+
+('Parcel 1 with DATSs'!G143*1000*'Parcel 1 with DATSs'!G144*('Parcel 1 with DATSs'!G146/100))+
+('Parcel 1 with DATSs'!G150*1000*'Parcel 1 with DATSs'!G151*('Parcel 1 with DATSs'!G153/100))+
+('Parcel 1 with DATSs'!G157*1000*'Parcel 1 with DATSs'!G158*('Parcel 1 with DATSs'!G160/100))+
+('Parcel 1 with DATSs'!G164*1000*'Parcel 1 with DATSs'!G165*('Parcel 1 with DATSs'!G167/100)) |  | 
+$E$33: =((('Parcel 1 with DATSs'!G250*1000/'Parcel 1 with DATSs'!E10)*C99)/E32*100) |  | 
+$E$34: =('Parcel 1 with DATSs'!G101*1000*'Parcel 1 with DATSs'!G102*('Parcel 1 with DATSs'!G105/100))+
+('Parcel 1 with DATSs'!G108*1000*'Parcel 1 with DATSs'!G109*('Parcel 1 with DATSs'!G112/100))+
+('Parcel 1 with DATSs'!G115*1000*'Parcel 1 with DATSs'!G116*('Parcel 1 with DATSs'!G119/100))+
+('Parcel 1 with DATSs'!G122*1000*'Parcel 1 with DATSs'!G123*('Parcel 1 with DATSs'!G126/100))+
+('Parcel 1 with DATSs'!G129*1000*'Parcel 1 with DATSs'!G130*('Parcel 1 with DATSs'!G133/100))+
+('Parcel 1 with DATSs'!G136*1000*'Parcel 1 with DATSs'!G137*('Parcel 1 with DATSs'!G140/100))+
+('Parcel 1 with DATSs'!G143*1000*'Parcel 1 with DATSs'!G144*('Parcel 1 with DATSs'!G147/100))+
+('Parcel 1 with DATSs'!G150*1000*'Parcel 1 with DATSs'!G151*('Parcel 1 with DATSs'!G154/100))+
+('Parcel 1 with DATSs'!G157*1000*'Parcel 1 with DATSs'!G158*('Parcel 1 with DATSs'!G161/100))+
+('Parcel 1 with DATSs'!G164*1000*'Parcel 1 with DATSs'!G165*('Parcel 1 with DATSs'!G168/100)) |  | 
+$E$35: =(((('Parcel 1 with DATSs'!G250*1000)/'Parcel 1 with DATSs'!E10)*'sust. impact KPIs DATS'!C100)/E34*100) |  | 
+$E$36: =('Parcel 1 with DATSs'!G67*'Parcel 1 with DATSs'!G68)+
+('Parcel 1 with DATSs'!G70*'Parcel 1 with DATSs'!G71)+
+('Parcel 1 with DATSs'!G73*'Parcel 1 with DATSs'!G74)+
+('Parcel 1 with DATSs'!G76*'Parcel 1 with DATSs'!G77)+
+('Parcel 1 with DATSs'!G79*'Parcel 1 with DATSs'!G80)+
+('Parcel 1 with DATSs'!G82*'Parcel 1 with DATSs'!G83)+
+('Parcel 1 with DATSs'!G85*'Parcel 1 with DATSs'!G86)+
+('Parcel 1 with DATSs'!G88*'Parcel 1 with DATSs'!G89)+
+('Parcel 1 with DATSs'!G91*'Parcel 1 with DATSs'!G92)+
+('Parcel 1 with DATSs'!G94*'Parcel 1 with DATSs'!G95) |  | 
+$E$37: ='Parcel 1 with DATSs'!G29/(IF('General Information'!D6="crop",'Parcel 1 with DATSs'!E10,IF('General Information'!D6="milk",'Parcel 1 with DATSs'!G251,IF('General Information'!D6="meat",'Parcel 1 with DATSs'!G252,IF('General Information'!D6="animal",'Parcel 1 with DATSs'!G253,IF('General Information'!D6="oyster",'Parcel 1 with DATSs'!G254,IF('General Information'!D6="honey",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256))))))) |  | 
+$E$39: =(('Parcel 1 with DATSs'!G250)*1000)/(IF(('Parcel 1 with DATSs'!G24+'Parcel 1 with DATSs'!G25)>0,('Parcel 1 with DATSs'!G24+'Parcel 1 with DATSs'!G25),'Parcel 1 with DATSs'!G29)) |  | 
+$E$40: ='Parcel 1 with DATSs'!G62/(IF('General Information'!D6="crop",'Parcel 1 with DATSs'!E10,IF('General Information'!D6="milk",'Parcel 1 with DATSs'!G251,IF('General Information'!D6="meat",'Parcel 1 with DATSs'!G252,IF('General Information'!D6="animal",'Parcel 1 with DATSs'!G253,IF('General Information'!D6="oyster",'Parcel 1 with DATSs'!G254,IF('General Information'!D6="honey",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256))))))) |  | 
+$E$41: ='Parcel 1 with DATSs'!G235/'Parcel 1 with DATSs'!G236 |  | 
+$E$42: ='Parcel 1 with DATSs'!G232/'Parcel 1 with DATSs'!E17*100 |  | 2.5
+$E$43: ='Parcel 1 with DATSs'!G232/'Parcel 1 with DATSs'!E20 |  | 
+$E$44: ='Parcel 1 with DATSs'!G232/'Parcel 1 with DATSs'!E19*100 |  | 
+$E$45: ='Parcel 1 with DATSs'!G233/'Parcel 1 with DATSs'!G234 |  | 
+$E$46: ='Parcel 1 with DATSs'!G237/'Parcel 1 with DATSs'!E17 |  | 
+$E$47: =('Parcel 1 with DATSs'!G186+'Parcel 1 with DATSs'!G188+'Parcel 1 with DATSs'!G190)/(IF('General Information'!D6="crop",'Parcel 1 with DATSs'!E10,IF('General Information'!D6="milk",'Parcel 1 with DATSs'!G251,IF('General Information'!D6="meat",'Parcel 1 with DATSs'!G252,IF('General Information'!D6="animal",'Parcel 1 with DATSs'!G253,IF('General Information'!D6="oyster",'Parcel 1 with DATSs'!G254,IF('General Information'!D6="honey",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256))))))) |  | 
+$E$48: =('Parcel 1 with DATSs'!G186+'Parcel 1 with DATSs'!G188+'Parcel 1 with DATSs'!G190)/(IF('General Information'!D6="crop",'Parcel 1 with DATSs'!E10,IF('General Information'!D6="milk",'Parcel 1 with DATSs'!G251,IF('General Information'!D6="meat",'Parcel 1 with DATSs'!G252,IF('General Information'!D6="animal",'Parcel 1 with DATSs'!G253,IF('General Information'!D6="oyster",'Parcel 1 with DATSs'!G254,IF('General Information'!D6="honey",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256))))))) |  | 
+$E$49: =('Parcel 1 with DATSs'!G187+'Parcel 1 with DATSs'!G189+'Parcel 1 with DATSs'!#REF!)/'Parcel 1 with DATSs'!E20 |  | 
+$E$50: =('Parcel 1 with DATSs'!G187+'Parcel 1 with DATSs'!G189+'Parcel 1 with DATSs'!#REF!)/'Parcel 1 with DATSs'!E19 |  | 
+$E$51: =('Parcel 1 with DATSs'!G43*'sust. impact KPIs DATS'!C94*'sust. impact KPIs DATS'!C95)/(IF('General Information'!D6="crop",'Parcel 1 with DATSs'!E10,IF('General Information'!D6="milk",'Parcel 1 with DATSs'!G251,IF('General Information'!D6="meat",'Parcel 1 with DATSs'!G252,IF('General Information'!D6="animal",'Parcel 1 with DATSs'!G253,IF('General Information'!D6="oyster",'Parcel 1 with DATSs'!G254,IF('General Information'!D6="honey",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256))))))) |  | 
+$E$52: ='Parcel 1 with DATSs'!G43/'Parcel 1 with DATSs'!E10 |  | 
+$E$53: ='Parcel 1 with DATSs'!G43/'Parcel 1 with DATSs'!E17 |  | 
+$E$54: ='Parcel 1 with DATSs'!G43/'Parcel 1 with DATSs'!E20 |  | 
+$E$55: ='Parcel 1 with DATSs'!G43/'Parcel 1 with DATSs'!E19 |  | 
+$E$57: =(G57+I57+K57)*C90*C91 | 1.101 | Amount of N fertilizer used (kg-N) * Emission factor 1
+$E$58: =E57+E51 |  | 
+$E$61: ='General Information'!D25/'General Information'!D14 |  | 
+$E$62: =(SUM(SUMIFS('Parcel 1 with DATSs'!G194:G218,'Parcel 1 with DATSs'!C194:C218,'Analysis DATS vs. NO DATS'!C12:C36,'Analysis DATS vs. NO DATS'!I12:I36,1)))/(IF('General Information'!D6="crop",'Parcel 1 with DATSs'!E10,IF('General Information'!D6="milk",'Parcel 1 with DATSs'!G251,IF('General Information'!D6="meat",'Parcel 1 with DATSs'!G252,IF('General Information'!D6="animal",'Parcel 1 with DATSs'!G253,IF('General Information'!D6="oyster",'Parcel 1 with DATSs'!G254,IF('General Information'!D6="honey",'Parcel 1 with DATSs'!G255,'Parcel 1 with DATSs'!G256))))))) |  | 
+$E$63: ='Parcel 1 with DATSs'!G241/'Parcel 1 with DATSs'!G243 |  | 
+$E$64: ='Parcel 1 with DATSs'!G242/'Parcel 1 with DATSs'!G243 |  | 
+$E$65: ='Parcel 1 with DATSs'!G245/'Parcel 1 with DATSs'!G246 |  | 
+

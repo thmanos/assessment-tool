@@ -1,0 +1,183 @@
+5694.0/898.0
+5694.0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)
+0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)
+0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)
+0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)
+0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)
+0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0)
+0/0/365
+0/0/365
+0/0
+0/0
+(0/(0.0+2457.0+1229.0+1229.0+614.0+1053.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+1843.0+0+1053.0))*100
+(0/0)*100
+0
+12.5
+14.1
+76.6
+(1*1000*0.06*(11/100))+(1*1000*0.3*(34.5/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))
+(((5694.0*1000/898.0)*C100)/(110.09999999999998)*100)
+(1*1000*0.06*(52/100))+(1*1000*0.3*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))
+(((5694.0*1000/898.0)*C101)/31.200000000000003*100)
+(1*1000*0.06*(0/100))+(1*1000*0.3*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))
+((((5694.0*1000)/898.0)*C102)/0.0*100)
+(1*0.8)+(1*0.15)+(1*0.75)+(1*0.6)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)
+360.0/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+((5694.0)*1000)/(((360.0+0) if (360.0+0)>0 else 360.0))
+2776.0/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0/0
+0/0*100
+0/0
+0/0*100
+0/0
+0/0
+cstfn_calculate_dynamic_l( )/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+cstfn_calculate_dynamic_l( )/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+(0+0+#0!)/0
+(0+0+#0!)/0
+(44500.0*35.9*0.0741)/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+44500.0/898.0
+44500.0/0
+44500.0/0
+44500.0/0
+110.09999999999998*0.24*0.011
+(((((1*0.06*11/100 if "Mineral"=="Mineral" else 0))+((1*0.3*34.5/100 if "Mineral"=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0)))*0.11) + ((((1*0.06*11/100 if "Mineral"=="Organic" else 0))+((1*0.3*34.5/100 if "Mineral"=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0)))*0.21))*0.01
+110.09999999999998*0.01
+(1.1009999999999998+0.00012110999999999998+0.2906639999999999)*1.571428571*273
+597.0758120271611+0
+40.0/0
+0/7021.0
+0/7021.0
+4.0/6.0
+1160.0/208.0
+1160.0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)
+0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)
+0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)
+0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)
+0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)
+0/(0.0+656.0+388.0+597.0+149.0+395.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+895.0+0+395.0)
+0/0/365
+0/0/365
+0/0
+0/0
+(0/(0+0+0+0))*100
+(0/0)*100
+0
+12.0
+13.5
+71.5
+(1*1000*0.18*(21/100))+(1*1000*0.19*(15/100))+(1*1000*0.15*(33/100))+(1*1000*0.005*(27/100))+(1*1000*0.002*(5.7/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))
+((1160.0*1000/208.0)*C100)/117.264*100
+(1*1000*0.18*(0/100))+(1*1000*0.19*(25/100))+(1*1000*0.15*(0/100))+(1*1000*0.005*(0/100))+(1*1000*0.002*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))
+((1160.0*1000/208.0)*C101)/47.5*100
+(1*1000*0.18*(0/100))+(1*1000*0.19*(0/100))+(1*1000*0.15*(0/100))+(1*1000*0.005*(0/100))+(1*1000*0.002*(3.1/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))+(0*1000*0*(0/100))
+((1160.0*1000/208.0)*C102)/0.062*100
+cstfn_calculate_dynamic_s( )
+166.0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+((1160.0)*1000)/(((166.0+0) if (166.0+0)>0 else 166.0))
+1077.0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0/0
+0/0*100
+0/0
+0/0*100
+0/0
+0/0
+cstfn_calculate_dynamic_u( )/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+cstfn_calculate_dynamic_u( )/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+cstfn_calculate_dynamic_u( )/0
+cstfn_calculate_dynamic_u( )/0
+(11150.0*35.9*0.0741)/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+11150.0/208.0
+11150.0/0
+11150.0/0
+11150.0/0
+117.264*0.24*0.011
+(((((1*0.18*21/100 if "Mineral"=="Mineral" else 0)) +((1*0.19*15/100 if "Mineral"=="Mineral" else 0)) +((1*0.15*33/100 if "Mineral"=="Mineral" else 0)) +((1*0.005*27/100 if "Mineral"=="Mineral" else 0)) +((1*0.002*5.7/100 if "Mineral"=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)))*0.11) +((((1*0.18*21/100 if "Mineral"=="Organic" else 0)) +((1*0.19*15/100 if "Mineral"=="Organic" else 0)) +((1*0.15*33/100 if "Mineral"=="Organic" else 0)) +((1*0.005*27/100 if "Mineral"=="Organic" else 0)) +((1*0.002*5.7/100 if "Mineral"=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)))*0.21))*0.01
+117.264*0.01
+(1.17264+0.0001289904+0.30957695999999996)*1.571428571*273
+635.9264125481654+0
+0/2431.0
+0/2431.0
+0/0
+(360.0*0.0)/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+44500.0*1.15/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+2776.0*0.148/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+cstfn_calculate_dynamic_b( )
+cstfn_calculate_dynamic_c( )
+cstfn_calculate_dynamic_d( )/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+cstfn_calculate_dynamic_e( )/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0.0*7.2/898.0
+2457.0*7.2/898.0
+1229.0*7.2/898.0
+1229.0*7.2/898.0
+614.0*7.2/898.0
+1053.0*7.2/898.0
+0*7.2/898.0
+0*7.2/0
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/0
+0*7.2/0
+0*7.2/0
+1843.0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+1053.0*7.2/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+(0+0+0+51.099999999999994+303.0+0+0+0.0+19.699777282850782+9.853897550111359+9.853897550111359+4.922939866369711+8.442761692650334+0.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+cstfn_calculate_dynamic_x( )/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+1200.0/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+5694.0/898.0*192.0
+(0*192.0/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0))))))))*1000
+(0*192.0/((898.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0))))))))/10
+0*0/0
+0*0/0
+0*192.0
+0
+(166.0*0)/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+11150.0*1.15/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+1077.0*0.148/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+(1*2*0)+(1*1*0)+(1*1*0)+(1*0.3*0)+(1*0.08*0)+(1*1*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)
+cstfn_calculate_dynamic_h( ) 
+(0*0+0*0+0*0)/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+(0*0+0*0+0*0)/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0.0*0/208.0
+656.0*0/208.0
+388.0*0/208.0
+597.0*0/208.0
+149.0*0/208.0
+395.0*0/208.0
+0*0/208.0
+0*0/208.0
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/0
+0*0/0
+0*0/0
+895.0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+395.0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0)))))))
+(0+0+0+0.0+292.5+0+0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+1160.0/208.0*0
+(0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0))))))))*1000
+(0*0/((208.0 if ""Wheat""==""Wheat"" else (0 if ""Wheat""=="milk" else (0 if ""Wheat""=="meat" else (0 if ""Wheat""=="animal" else (0 if ""Wheat""=="oyster" else (0 if ""Wheat""=="honey" else 0))))))))/10
+0*0/0
+0/0*0
+0*0
+0

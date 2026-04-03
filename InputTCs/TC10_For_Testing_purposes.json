@@ -1,0 +1,436 @@
+{
+   "testcaseNumber": 10,
+   "testcaseLeader": "ANAMOB",
+   "cultivationType": "crop",
+   "crop" : "Wheat",
+   "datsInformation": [
+      {
+         "datsName": "fms.agricloud.ro",
+         "datsInitialInvestmentCosts": 70396,
+         "datsAnnualFees": 1100,
+         "datsMaintenanceCosts": 500,
+         "datsExpectedLifespan": 10,
+         "datsInstallationTime": 60,
+         "datsTrainingTime": 40,
+         "datsTrainers": 2,
+         "datsTrainingCosts": 1200
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": null,
+                     "parcelDimension": 898,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "Wheat",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": 7.2,
+                     "soilFractionClay": 22.2,
+                     "soilFractionSilt": 63.7,
+                     "bulkDensity": 1.2,
+                     "soilOrganicCarbon": 3.24,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 360,
+                     "waterUsageForIrrigation": 360,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 44500,
+                     "fuelUsageForFertilisation": 3560,
+                     "fuelUsageForPesticides": 4450,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": 9345,
+                     "fuelUsageForPruning": 4005,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 2776,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Dicopur D (Herbicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.8,
+                        "productPrice": 8
+                     },
+                     {
+                        "productName": "Secator Progress (Herbicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "productPrice": 66
+                     },
+                     {
+                        "productName": "LS Prothio-Tebuc (Fungicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.75,
+                        "productPrice": 32
+                     },
+                     {
+                        "productName": "STARPRO 430SC (Fungicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.6,
+                        "productPrice": 18
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "MAP (11-52-0)",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.06,
+                        "averageNitrogenQuantity": 11,
+                        "averagePhosphorusQuantity": 52,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 1.05
+                     },
+                     {
+                        "productName": "Ammonium Nitrate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "averageNitrogenQuantity": 34.5,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.8
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 0,
+                     "labourForPesticides": 2457,
+                     "labourForFertilisation": 1229,
+                     "labourForSowingOrPlanting": 1229,
+                     "labourForPruning": 614,
+                     "labourForFieldVisits": 1053,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 1843,
+                     "labourForStorage": null,
+                     "labourForAdministration": 1053
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": 12.5,
+                     "humidity": 14.1,
+                     "testWeight": 76.6
+                  },
+                  "outputInformation": {
+                     "cropProduction": 5694,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": 192,
+                     "cropMarketPrice": 192,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": 7021,
+                     "numberOfWorkingWeeks": 39,
+                     "numberOfNewLocalEmployeesHired": 4,
+                     "numberOfNewEmployeesHired": 6
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": null,
+                     "parcelDimension": 208,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "Wheat",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": 6.4,
+                     "soilFractionClay": 27.8,
+                     "soilFractionSilt": 59.9,
+                     "bulkDensity": 1.22,
+                     "soilOrganicCarbon": 3.6,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 166,
+                     "waterUsageForIrrigation": 166,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 11150,
+                     "fuelUsageForFertilisation": 784,
+                     "fuelUsageForPesticides": 1004,
+                     "fuelUsageForIrrigation": 0,
+                     "fuelUsageForSowing": 3568,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 1077,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Trinity (Herbicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 14.4
+                     },
+                     {
+                        "productName": "Tomigan XL (Herbicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 28
+                     },
+                     {
+                        "productName": "Custodia (Fungicide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 33.8
+                     },
+                     {
+                        "productName": "Lamdex (Insecticide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 21.2
+                     },
+                     {
+                        "productName": "Vandex (Insecticide)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.08,
+                        "productPrice": 85.4
+                     },
+                     {
+                        "productName": "Kinto Plus / Picus (Seed treatment)",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 12
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Ammonium Sulphate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.18,
+                        "averageNitrogenQuantity": 21,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.3
+                     },
+                     {
+                        "productName": "NPK (15-25-0)",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.19,
+                        "averageNitrogenQuantity": 15,
+                        "averagePhosphorusQuantity": 25,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.4
+                     },
+                     {
+                        "productName": "Ammonium nitrate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "averageNitrogenQuantity": 33,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.3
+                     },
+                     {
+                        "productName": "Basfoliar Extra",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.005,
+                        "averageNitrogenQuantity": 27,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 13.5
+                     },
+                     {
+                        "productName": "Kerafol",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.002,
+                        "averageNitrogenQuantity": 5.7,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 3.1,
+                        "productPrice": 25
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 0,
+                     "labourForPesticides": 656,
+                     "labourForFertilisation": 388,
+                     "labourForSowingOrPlanting": 597,
+                     "labourForPruning": 149,
+                     "labourForFieldVisits": 395,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 895,
+                     "labourForStorage": null,
+                     "labourForAdministration": 395
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": 12,
+                     "humidity": 13.5,
+                     "testWeight": 71.5
+                  },
+                  "outputInformation": {
+                     "cropProduction": 1160,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": 192,
+                     "cropMarketPrice": 192,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": 2431,
+                     "numberOfWorkingWeeks": 40,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               }
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 0,
+            "fuelPrice": 1.15,
+            "electricityPrice": 0.148,
+            "averageSalary": 7.2,
+            "averageProfessionalSalary": 8.6,
+            "productMarketPrice": 192
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": []
+      }
+   ]
+}

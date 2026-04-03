@@ -1,0 +1,142 @@
+{
+    "sust_kpis_dats": {
+        "productivity_": {
+            "yield": "6.34075723830735",
+            "labour_productivity_arable_and_horticulture": "0.6007596539354294",
+            "labour_productivity_dairy_livestock": "0.0",
+            "labour_productivity__meat_livestock": "0.0",
+            "labour_productivity__aquaculture": "0.0",
+            "labour_productivity__apiculture": "0.0",
+            "labour_productivity_silos": "0.0"
+        },
+        "efficiency_": {
+            "rate_of_time_for_quality_analysis": "0.0",
+            "number_of_wrong_orders": "0"
+        },
+        "product_quality__": {
+            "protein_%_dry_matter": "12.5",
+            "humidity": "14.1",
+            "test_weight": "76.6"
+        },
+        "fertiliser": {
+            "nitrogen_applied": "110.09999999999998",
+            "nitrogen_use_efficiency": "116.3336023740313",
+            "phosphorus_applied": "31.200000000000003",
+            "phosphorus_use_efficiency": "166.6481069042316",
+            "_potassium_applied": "0.0",
+            "indirect_leaching/runoff": "0.2906639999999999",
+            "indirect_volatilisation": "0.00012110999999999998",
+            "direct": "1.1009999999999998",
+            "n2o_ghg_emission": "597.0758120271611"
+        },
+        "pesticide_": {
+            "pesticides_herbicides_and_fungicides_use": "2.3000000000000003"
+        },
+        "water_": {
+            "irrigation_water_productivity": "15816.666666666666"
+        },
+        "electricity": {},
+        "animal_": {},
+        "drugs_": {},
+        "fuel_": {
+            "arable_and_horticulture_fuel_consumption": "49.55456570155902"
+        },
+        "ghg": {
+            "total_ghg_emissions": "597.0758120271611"
+        },
+        "social_kpis": {
+            "frequency_rate_of_occupational_injuries": "0.0",
+            "incidence_of_occupational_injuries": "0.0",
+            "contribution_to_local_employment": "0.6666666666666666"
+        }
+    },
+    "sust_kpis_no_dats": {
+        "productivity_": {
+            "land_productivity": "5.576923076923077",
+            "labour_productivity_arable_and_horticulture": "0.3338129496402878",
+            "labour_productivity_dairy_livestock": "0.0",
+            "labour_productivity__meat_livestock": "0.0",
+            "labour_productivity__aquaculture": "0.0",
+            "labour_productivity__apiculture": "0.0",
+            "labour_productivity_silos": "0.0"
+        },
+        "efficiency_": {
+            "number_of_wrong_orders": "0"
+        },
+        "product_quality__": {
+            "protein_%_dry_matter": "12.0",
+            "humidity": "13.5",
+            "test_weight": "71.5"
+        },
+        "fertiliser": {
+            "nitrogen_applied": "117.264",
+            "nitrogen_use_efficiency": "96.06856848977193",
+            "phosphorus_applied": "47.5",
+            "phosphorus_use_efficiency": "96.2753036437247",
+            "potassium_applied": "0.062",
+            "potassium_use_efficiency": "46774.1935483871",
+            "indirect_leaching/runoff": "0.30957695999999996",
+            "indirect_volatilisation": "0.0001289904",
+            "direct": "1.17264",
+            "n2o_ghg_emission": "635.9264125481654"
+        },
+        "pesticide_": {
+            "pesticides_herbicides_and_fungicides_use": "5.38"
+        },
+        "water_": {
+            "irrigation_water_productivity": "6987.951807228916"
+        },
+        "electricity": {},
+        "animal_": {},
+        "drugs_": {},
+        "fuel_": {
+            "arable_and_horticulture_fuel_consumption": "53.60576923076923"
+        },
+        "ghg": {
+            "total_ghg_emissions": "635.9264125481654"
+        },
+        "social_kpis": {
+            "frequency_rate_of_occupational_injuries": "0.0",
+            "incidence_of_occupational_injuries": "0.0"
+        }
+    },
+    "cost_revenue_dats": {
+        "cost_analysis": {
+            "pesticide_|cost_for_pesticide": "51.099999999999994",
+            "fertiliser|cost_of_fertiliser": "303.0",
+            "labour|cost_of_labour_for_irrigation": "0.0",
+            "labour|cost_of_labour_for_pesticide_application": "19.699777282850782",
+            "labour|cost_of_labour_for_fertilisation": "9.853897550111359",
+            "labour": "9.853897550111359",
+            "labour|cost_of_labour_for_pruning": "4.922939866369711",
+            "labour|cost_of_labour_for_field_visits": "8.442761692650334",
+            "labour|cost_of_labour_for_greenhouse_maintenance": "0.0",
+            "cost|tot_cost": "406.87327394209353"
+        },
+        "revenues_analysis": {
+            "output|crop_revenue": "1217.425389755011",
+            "output|grain_silos_revenue": "0.0",
+            "additional_revenues|additional_revenues": "0"
+        }
+    },
+    "cost_revenue_no_dats": {
+        "cost_analysis": {
+            "pesticide_|cost_for_pesticide": "0.0",
+            "fertiliser|cost_of_fertiliser": "292.5",
+            "labour|cost_of_labour_for_irrigation": "0.0",
+            "labour|cost_of_labour_for_pesticide": "0.0",
+            "labour|cost_of_labour_for_fertilisation": "0.0",
+            "labour": "0.0",
+            "labour|cost_of_labour_for_pruning": "0.0",
+            "labour|cost_of_labour_for_field_visits": "0.0",
+            "labour|cost_of_labour_for_greenhouse_management": "0.0",
+            "labour|cost_of_labour_for_tracking_the_quantity_of_grain_available_in_the_silo": "0.0",
+            "cost|tot_cost": "292.5"
+        },
+        "revenues_analysis": {
+            "output|crop_revenue": "0.0",
+            "output|grain_silos_revenue": "0",
+            "additional_revenues|additional_revenues": "0"
+        }
+    }
+}

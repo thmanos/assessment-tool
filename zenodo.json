@@ -1,0 +1,33 @@
+{
+  "title": "QuantiFarm — Assessment Tool",
+  "description": "The DATS Assessment Engine builds on the Quantifarm DATS assessment framework and aims to enable both quantitative and qualitative assessment of DATSs under real-world conditions.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Manos, Thanasis",
+      "affiliation": "Neuropublic S.A."
+    }
+  ],
+  "keywords": [
+    "agricultural investment",
+    "digital agricultural technologies",
+    "DAT impact evaluation",
+    "environmental metrics",
+    "financial metrics"
+  ],
+  "grants": [
+    {
+      "id": "101059700"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://gitlab.com/QuantiFarm/assessment-tool",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "This work has been funded by the European Union's Horizon Europe research and innovation programme under grant agreement No. 101059700. Views and opinions expressed are those of the author(s) only and do not necessarily reflect those of the European Union or the REA."
+}

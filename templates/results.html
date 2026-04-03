@@ -1,0 +1,310 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">
+                    <i class="bi bi-file-earmark-text me-2"></i>Results: {{ filename }}
+                </h4>
+                <div>
+                    <a href="{{ url_for('index') }}" class="btn btn-light btn-sm me-2">
+                        <i class="bi bi-arrow-left me-1"></i>Back
+                    </a>
+                    <a href="{{ url_for('download_file', file_type='export', filename=filename) }}"
+                       class="btn btn-success btn-sm me-2">
+                        <i class="bi bi-download me-1"></i>Export JSON
+                    </a>
+                    <a href="{{ url_for('download_file', file_type='analytics', filename=filename) }}"
+                       class="btn btn-info btn-sm">
+                        <i class="bi bi-download me-1"></i>Analytics JSON
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card metric-card bg-light">
+                            <div class="card-body text-center">
+                                <h6 class="text-muted">Total Cost (DATS)</h6>
+                                <h3 class="text-primary">{{ "%.2f"|format(export_data.summary.total_cost_dats) }}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card metric-card bg-light">
+                            <div class="card-body text-center">
+                                <h6 class="text-muted">Total Cost (NO DATS)</h6>
+                                <h3 class="text-secondary">{{ "%.2f"|format(export_data.summary.total_cost_no_dats) }}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card metric-card bg-light">
+                            <div class="card-body text-center">
+                                <h6 class="text-muted">Cost Difference</h6>
+                                <h3 class="{% if export_data.summary.cost_difference > 0 %}text-danger{% else %}text-success{% endif %}">
+                                    {{ "%.2f"|format(export_data.summary.cost_difference) }}
+                                </h3>
+                                {% if export_data.summary.cost_difference > 0 %}
+                                <small class="text-danger">DATS costs more</small>
+                                {% else %}
+                                <small class="text-success">DATS saves money</small>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card metric-card bg-light">
+                            <div class="card-body text-center">
+                                <h6 class="text-muted">Comparisons</h6>
+                                <h3 class="text-info">{{ analytics_data.summary.total_comparisons }}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12">
+        <ul class="nav nav-tabs mb-3" id="resultsTabs" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#kpi-dats" type="button">
+                    <i class="bi bi-graph-up me-1"></i>KPIs DATS
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#kpi-no-dats" type="button">
+                    <i class="bi bi-graph-down me-1"></i>KPIs NO DATS
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#cost-analysis" type="button">
+                    <i class="bi bi-cash me-1"></i>Cost Analysis
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#analytics" type="button">
+                    <i class="bi bi-bar-chart me-1"></i>Analytics
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="resultsTabContent">
+            <div class="tab-pane fade show active" id="kpi-dats">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="bi bi-graph-up me-2"></i>Sustainability KPIs with DATS</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Metric</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for category, data in export_data.sust_kpis_dats.items() %}
+                                        {% for key, value in data.items() %}
+                                        <tr>
+                                            <td>{{ category }}</td>
+                                            <td>{{ key }}</td>
+                                            <td>
+                                                {% if value is number %}
+                                                {{ "%.4f"|format(value) }}
+                                                {% else %}
+                                                {{ value }}
+                                                {% endif %}
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="kpi-no-dats">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="bi bi-graph-down me-2"></i>Sustainability KPIs without DATS</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Category</th>
+                                        <th>Metric</th>
+                                        <th>Value</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for category, data in export_data.sust_kpis_no_dats.items() %}
+                                        {% for key, value in data.items() %}
+                                        <tr>
+                                            <td>{{ category }}</td>
+                                            <td>{{ key }}</td>
+                                            <td>
+                                                {% if value is number %}
+                                                {{ "%.4f"|format(value) }}
+                                                {% else %}
+                                                {{ value }}
+                                                {% endif %}
+                                            </td>
+                                        </tr>
+                                        {% endfor %}
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="cost-analysis">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-primary text-white">
+                                <h5><i class="bi bi-cash me-2"></i>Cost Analysis with DATS</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>Category</th>
+                                                <th>Cost</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for category, costs in export_data.cost_revenue_dats.items() %}
+                                                <tr>
+                                                    <td>{{ category }}</td>
+                                                    <td>
+                                                        {% for key, value in costs.items() %}
+                                                        <strong>{{ key }}:</strong> 
+                                                        {% if value is number %}
+                                                            {{ "%.2f"|format(value) }}
+                                                        {% else %}
+                                                            {{ value }}
+                                                        {% endif %}<br>
+                                                        {% endfor %}
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header bg-secondary text-white">
+                                <h5><i class="bi bi-cash me-2"></i>Cost Analysis without DATS</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>Category</th>
+                                                <th>Cost</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for category, costs in export_data.cost_revenue_no_dats.items() %}
+                                                <tr>
+                                                    <td>{{ category }}</td>
+                                                    <td>
+                                                        {% for key, value in costs.items() %}
+                                                        <strong>{{ key }}:</strong> 
+                                                        {% if value is number %}
+                                                            {{ "%.2f"|format(value) }}
+                                                        {% else %}
+                                                            {{ value }}
+                                                        {% endif %}<br>
+                                                        {% endfor %}
+                                                    </td>
+                                                </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="analytics">
+                <div class="card">
+                    <div class="card-header">
+                        <h5><i class="bi bi-bar-chart me-2"></i>Detailed Analytics Comparison (DATS vs NO DATS)</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-md-4">
+                                <div class="alert alert-info">
+                                    <strong>Total Comparisons:</strong> {{ analytics_data.summary.total_comparisons }}
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="alert alert-success">
+                                    <strong>Positive Differences:</strong> {{ analytics_data.summary.positive_differences }}
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="alert alert-secondary">
+                                    <strong>Zero Differences:</strong> {{ analytics_data.summary.zero_differences }}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover table-sm">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Original Formula</th>
+                                        <th>Converted Formula</th>
+                                        <th>Result</th>
+                                        <th>Cell</th>
+                                        <th>Sheet</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in analytics_data.analysis_dats_vs_no_dats[:100] %}
+                                    <tr class="{% if item.result > 0 %}table-success{% elif item.result < 0 %}table-danger{% else %}table-secondary{% endif %}">
+                                        <td><code>{{ item.original }}</code></td>
+                                        <td><code>{{ item.converted }}</code></td>
+                                        <td><strong>{{ "%.4f"|format(item.result) if item.result is not none else "None" }}</strong></td>
+                                        <td>{{ item.cell }}</td>
+                                        <td>{{ item.sheet }}</td>
+                                    </tr>
+                                    {% endfor %}
+                                    {% if analytics_data.analysis_dats_vs_no_dats | length > 100 %}
+                                    <tr>
+                                        <td colspan="5" class="text-center text-muted">
+                                            <em>... showing first 100 of {{ analytics_data.analysis_dats_vs_no_dats | length }} comparisons</em>
+                                        </td>
+                                    </tr>
+                                    {% endif %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
